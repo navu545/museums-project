@@ -1,0 +1,36 @@
+.thank-you-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 447px;
+    width: 500px;
+    background-color:  rgb(120, 126, 128);
+    margin-left: 175px;
+    border-radius: 20px;
+    z-index:2;
+    animation: backgroundAnimation 5s infinite alternate;
+    
+}
+.thank-you-headline{
+    font-family: 'Mariupol';
+}
+.thank-you-message{
+    font-family: 'Mariupol';
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.thank-you-button{
+    font-family: 'Mariupol';
+    width: 160px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+

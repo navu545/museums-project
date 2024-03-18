@@ -1,0 +1,86 @@
+.contacts-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.contacts-container {
+  font-family: "mariupol";
+  text-align: center;
+  margin-bottom: 140px;
+}
+.contacts-headline {
+  font-family: "nueu-machina";
+  margin-bottom: 35px;
+}
+.contacts-email {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 40px;
+
+}
+.contacts-insta-button {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  margin-right: 80px;
+  font-family: "mariupol";
+  font-size: 20px;
+}
+
+.contacts-twitter-button {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  font-family: "mariupol";
+  font-size: 20px;
+  
+}
+.contacts-twitter-img {
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 65%;
+  height: auto;
+  margin-top: -1px;
+
+}
+.contacts-insta-img {
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 65%;
+  height: auto;
+  margin-top: -1px;
+  
+  
+}
+.contacts-buttons-container{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0px;
+    
+}
+
+.contacts-buttons-container::after{
+    content: '';
+    position: absolute;
+    left: 54%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #ccc;
+}
+
+a{
+    text-decoration: none;
+}
+.contacts-twitter-button:hover{
+    cursor: pointer;
+}
+.contacts-insta-button:hover{
+    cursor: pointer;
+}
+.email-link{
+  color: inherit;
+}

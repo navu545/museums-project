@@ -1,0 +1,42 @@
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    background-color: black;
+    height: 72px;
+    margin-left: 4px;
+}
+
+.footer-para-div{
+    display:flex;
+    margin-right: 10px;
+    margin-left: 950px;
+    font-family: 'mariupol';
+    color: white;
+}
+.footer-links-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:50px;
+}
+
+.footer-links-btn p{
+    margin-right: 40px;
+
+}
+
+.footer-para-div a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-logo{
+    margin-left: -10px;
+}

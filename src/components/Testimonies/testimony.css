@@ -1,0 +1,40 @@
+.testimonies-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.testimonies-container{
+    width: 1440px;
+    height: 756px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.testimonies-headlines{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testimonies-headlines h1{
+    font-family: 'nueu-machina';
+}
+.testimonies-headlines p{
+    font-family: 'mariupol';
+    font-size: 20px;
+}
+.row-one{
+    width: 1440px;
+    height: 296px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 178px;
+    
+}
+.row-two{
+    width: 1440px;
+    height: 296px;
+    display: flex;
+    margin-left: 178px;
+}
+.testimony-card-spacing{
+    margin: 20px;
+}

@@ -1,0 +1,63 @@
+.content-container-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1256px;
+    height: 100px; /*might be a problem*/
+    background-color: #E9F0ED;
+    border-radius: 10px;
+    font-family: 'Mariupol';
+}
+.content-container.expanded{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1256px;
+    height: 400px; /*might be a problem*/
+    background-color: #E9F0ED;
+    border-radius: 10px;
+    font-family: 'Mariupol';
+
+}
+
+.microphone-container img{
+    width: 100px;
+    height: 100px;
+}
+.tab-component-text {
+    margin-top: -20px;
+
+}
+.tab-component-text p{
+    max-height: 52px;
+    overflow: hidden;
+    line-height: 1.4;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+
+}
+.tab-component-text.expanded p{
+    max-height: 360px;
+    margin-top: 27px;
+
+    
+}
+.tab-component-span{
+    text-decoration: underline;
+}
+.tab-component-span:hover{
+    cursor: pointer;
+}
+.microphone-container.expanded {
+    margin-bottom: 300px;
+}
+

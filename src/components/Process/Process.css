@@ -1,0 +1,39 @@
+.process-container-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.process-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.process-steps-container{
+    display: flex;
+    margin-right: -50px;
+}
+.image-text-container{
+    text-align: center;
+    position: relative;
+    margin-right: 60px;
+}
+.steps{
+    width: 296px;
+    font-family: 'Mariupol';
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.overlay-text{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    font-family: 'Nueu-Machina';
+    font-size: 25px;
+}
+.process-headline{
+    font-family: 'Nueu-Machina';
+    font-size: 16px;
+    margin-bottom: 10px;
+}

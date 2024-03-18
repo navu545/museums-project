@@ -1,0 +1,39 @@
+.museum-card{
+    width: 284px;
+    height: 318px;
+    text-align: left;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+.museum-card-img-div{
+    width: 268px;
+    height: 176px;
+}
+.museum-card-text{
+    width: 252px;
+    height: 98px;
+    margin-left: 16px;
+    font-family: 'Mariupol';
+    margin-top: 20px;
+}
+.museum-card-img{
+    width: 116%;
+    height: 119%;
+    margin-left: -12.9px;
+    margin-top: -5px;
+    
+}
+.museum-card-headline{
+    font-weight: bold;
+    font-size: 17px;
+}
+.museum-card-para{
+    margin-top: -7px;
+    line-height: 1.4;
+    color:grey;
+}
+.lviv-span{
+    font-weight: lighter;
+}

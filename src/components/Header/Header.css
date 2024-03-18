@@ -1,0 +1,83 @@
+.header-border-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:1440px;
+    height: 641px;
+}
+.header-headlines-container{
+    width: 596px;
+    height: 352px;
+    margin-left: 92px;
+
+}
+.header-headlines-container h1{
+    font-family: 'Nueu-Machina';
+    font-size: 53px;
+}
+.header-headlines-container p{
+    font-family: 'Mariupol';
+    font-size: 24.4px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+.header-imgs-container{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 596px;
+    height: 401px;
+    margin-right: 120px;
+    position: relative;
+}
+.header-imgs-container img:first-child{
+    width: 53%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 300px;
+}
+.header-imgs-container img:last-child{
+    width: 56%;
+    height: 109%;
+    object-fit: contain;
+    margin-left: 300px;
+}
+.header-btn{
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    line-height: 6px;
+    border-radius: 40px;
+    width: 192px;
+    height: 48px;
+    font-family: 'mariupol';
+    font-size: 17px;
+    border: 0px;
+}
+.header-btn:hover{
+    background-color: darkgray;
+}
+
+.tilt-img,.str-img{
+    position: absolute;
+}
+.tilt-img{
+    top: 9;
+    left: -185px;
+    z-index: 1;
+}
+.str-img{
+    top: 8;
+    left: 0;
+    z-index: 0;
+}

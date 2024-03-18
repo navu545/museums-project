@@ -1,0 +1,40 @@
+.about-us-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-container{
+    width: 1256px;
+    height: 514px;
+    display: flex;
+    background-color: #FEFCD3;
+    border-radius: 10px;
+}
+.about-us-img{
+    width:524px;
+    height:356px;
+    margin-top: 74px;
+    margin-left: 54px;
+}
+.about-us-img img{
+    width: 105%;
+    height: auto;
+}
+
+.about-us-text{
+    width:524px;
+    height:416px;
+    margin-left: 80px; 
+    margin-top: 20px;
+}
+.about-us-text h1{
+    font-family: 'Nueu-Machina';
+    font-size: 39px;
+}
+.about-us-text p{
+    margin-top: -10px;
+    font-family: 'Mariupol';
+    font-size: 18px;
+    line-height: 1.5;
+}

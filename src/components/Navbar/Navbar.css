@@ -1,0 +1,63 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    
+}
+.navbar-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.navbar-para-div{
+    display:flex;
+    margin-right: 10px;
+    margin-left: 600px;
+    font-family: 'mariupol';
+}
+.navbar-links-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-links-btn p{
+    margin-right: 40px;
+
+}
+
+
+.navbar-btn{
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    line-height: 5px;
+    border-radius: 20px;
+    width: 144px;
+    height: 32px;
+    font-family: 'mariupol';
+    border: 0px;
+}
+.navbar-btn:hover{
+    background-color: darkgray;
+}
+.navbar-para-div a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-contact-btn{
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    margin-top: -1px;
+}
+.navbar-contact-btn:hover{
+    cursor: pointer;
+}

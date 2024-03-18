@@ -1,0 +1,34 @@
+.image-preview-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-preview-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin-top: -1800px;
+}
+.preview-close-btn{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    
+}
+.preview-images{
+    width: 100%;
+    height: 100%;
+}

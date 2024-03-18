@@ -1,0 +1,55 @@
+.testimony-card-container{
+    width: 284px;
+    height: 296px;
+}
+.testimony-card-img{
+    height: 176px;
+}
+.testimony-card-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.testimony-card-text h1{
+    font-family: 'mariupol';
+    font-size: 18px;
+    text-decoration: none;
+    color: #171717;
+}
+.testimony-card-description{
+    font-family: 'mariupol';
+    line-height: 1.4;
+    color:#787878;
+    margin-top: -5px;
+}
+.testimony-card-date{
+    color: #414141;
+    font-family: 'mariupol';
+    margin-top: 24px;
+}
+span{
+    font-weight: lighter;
+}
+.testimony-img-btn{
+    position: relative;
+}
+.testimony-card-button{
+    position: absolute;
+    top: 143px;
+    right: 7px;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'mariupol';
+}
+.testimony-btn-img{
+    margin-left: 5px;
+    margin-bottom: -7px;
+}
+.testimony-card-button:hover{
+    cursor: pointer;
+}
+.test-head-desc:hover{
+    text-decoration: underline;
+    text-decoration-color:black;
+}
