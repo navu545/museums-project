@@ -1,11 +1,5 @@
 import {useState,React} from 'react';
 import {moreimages} from "../../assets/images";
-import {
-  museumexam,
-  museumexam2,
-  museumexam3,
-  museumexam4,
-} from "../../assets/images";
 import ImagePreviewOverlay from "../ImagePreview/ImagePreviewOverlay";
 import "./TestimonyCard.css";
 import { Link } from 'react-router-dom';
@@ -28,7 +22,7 @@ const TestimonyCard = (props) => {
             <img src={props.testimonyCardImage} alt="msm-test"></img>
           </div>
           <button className="testimony-card-button" onClick={togglePreview}>
-            3 photos
+            {props.previewImages.length} photos
             <img
               className="testimony-btn-img"
               src={moreimages}
