@@ -3,7 +3,7 @@ import { FooterShadowProject } from "../../assets/images";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Footer = () => {
   return (
     <>
       <div className="footer-wrapper">
@@ -30,4 +30,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Footer;
