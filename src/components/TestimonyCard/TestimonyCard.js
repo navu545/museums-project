@@ -22,7 +22,7 @@ const TestimonyCard = (props) => {
             <img src={props.testimonyCardImage} alt="msm-test"></img>
           </div>
           <button className="testimony-card-button" onClick={togglePreview}>
-            3 photos
+            {props.previewImages.length} photos
             <img
               className="testimony-btn-img"
               src={moreimages}

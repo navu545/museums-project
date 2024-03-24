@@ -8,7 +8,7 @@ const TestimonyPage = () => {
     <div className="testimony-page-container">
       <Navbar />
       <TestimonyContainer />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
