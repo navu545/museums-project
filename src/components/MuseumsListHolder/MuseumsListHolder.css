@@ -1,0 +1,79 @@
+.Museums-cards-holder {
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 15px;
+}
+.museum-card-spacing {
+  margin: 20px;
+}
+.museum-list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.museum-list-container {
+  margin-top: 50px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.musuem-list-headlines {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.musuem-list-headlines h1 {
+  font-family: "Nueu-Machina";
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.musuem-list-headlines p {
+  font-family: "Mariupol";
+  font-size: 20px;
+  width: 936px;
+  margin-left: 250px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.museum-list-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.cardRow-container {
+  height: 1100px;
+}
+.index-btns {
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "OpenSans";
+}
+.left-msm-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.right-msm-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.left-msm-btn.final {
+  opacity: 30%;
+}
+.right-msm-btn.final {
+  opacity: 30%;
+}
+.index-btns.active {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  font-family: "OpenSans-Bold";
+}

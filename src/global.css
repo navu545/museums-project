@@ -7,6 +7,13 @@
   font-family: 'Mariupol';
   src: url('../src/assets/fonts/NeuaMachina/Mariupol-Regular.otf') format('opentype');
 }
-
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../src/assets/fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('../src/assets/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+}
 
 
