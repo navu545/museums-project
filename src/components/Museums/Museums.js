@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { listSuppliesOpen } from "../../assets/images";
 import MuseumCard from "../MuseumCard/MuseumCard";
 import "./Museums.css";
@@ -18,15 +19,19 @@ const Museums = () => {
           <MuseumCard />
         </div>
         <div className="museums-btn-container">
-          <button className="museums-btn-one">
-            List of supplies
-            <img
-              src={listSuppliesOpen}
-              alt="supplies"
-              className="museum-btn-img"
-            />
-          </button>
-          <button className="museums-btn-two">List of museums</button>
+          <Link to="/MuseumsListPage">
+            <button className="museums-btn-one">
+              List of supplies
+              <img
+                src={listSuppliesOpen}
+                alt="supplies"
+                className="museum-btn-img"
+              />
+            </button>
+          </Link>
+          <Link to="/MuseumsListPage">
+            <button className="museums-btn-two">List of museums</button>
+          </Link>
         </div>
       </div>
     </div>

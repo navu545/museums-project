@@ -12,9 +12,13 @@ const MuseumsListPage = () => {
       <div className="museums-list-spacing-1"></div>
       <MuseumsListHolder />
       <div className="museums-list-spacing-2"></div>
-      <Process />
+      <div className="process-museumslistpage">
+        <Process />
+      </div>
       <div className="museums-list-spacing-3"></div>
-      <Form />
+      <div className="form-museumslistpage">
+        <Form />
+      </div>
       <div className="museums-list-spacing-4"></div>
       <Footer />
     </div>
