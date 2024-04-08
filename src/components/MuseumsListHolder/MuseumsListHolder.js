@@ -106,9 +106,9 @@ const MuseumsListHolder = () => {
     }
     
   };
-  console.log(activeIndex)
+
   const n = cardsArray.length / 12;
-  console.log(n);
+
   const indexes = [];
   for (let i = 0; i < n; i++) {
     indexes.push(i+1);
