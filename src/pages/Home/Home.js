@@ -39,7 +39,10 @@ const Home = () => {
       <Info />
       <div className="component-spacing-4"></div>
 
+      
       <Museum />
+      
+
       <div className="component-spacing-5"></div>
 
       <Process />

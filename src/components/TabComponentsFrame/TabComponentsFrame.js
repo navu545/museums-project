@@ -21,7 +21,7 @@ const TabComponentsFrame = () => {
             {!expanded && (
               <p className="content">
                 On February 24th, russia launched an unprovoked, brutal
-                full-scale invasion of Ukraine. Since the beginning of the
+                war on Ukraine. Since the beginning of the
                 invasion, the Russian bombs have not spared anyone — we’ve seen
                 hospitals, residential buildings, schools...{" "}
                 <span className="tab-component-span" onClick={toggleExpansion}>
