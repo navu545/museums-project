@@ -29,7 +29,7 @@ const cardsArray = [
   <MuseumCardColored />,
   <MuseumCardColored />,
   <MuseumCardColored />,
-  
+  <MuseumCardColored />,
 ];
 
 const MuseumsListHolder = () => {
@@ -72,7 +72,7 @@ const MuseumsListHolder = () => {
     }
   }, [lowerIndex, upperIndex]);
 
-  const maxRowCards = 4;
+  const maxRowCards = 12;
   const rowSpacing = [];
   const cardRows = [];
 
@@ -94,6 +94,7 @@ const MuseumsListHolder = () => {
       {element}
     </div>
   ));
+
   
   const loadPage = (e) => {
     

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Navbar = ({toggleScroll,scrollTo}) => {
 
   const[openMenu,setOpenMenu] = useState(false);
-  console.log(openMenu);
+
   return (
     <>
       <div ref={scrollTo} className="navbar-wrapper">

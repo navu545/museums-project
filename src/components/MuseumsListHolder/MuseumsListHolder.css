@@ -1,17 +1,19 @@
 .Museums-list-cards-holder {
-  display: flex;
-  margin-left: 65px;
+  display:flex;
   margin-bottom: 15px;
+  justify-content:center;
+  flex-wrap: wrap;
   
 }
 .museum-card-spacing {
-  margin: 20px;
+ margin: 20px;
 }
 .museum-list-wrapper {
   display: flex;
   justify-content: center;
 }
 .museum-list-container {
+
   margin-top: 50px;
   max-width: 1440px;
   display: flex;
@@ -20,8 +22,13 @@
   margin-left: 20px;
 }
 .musuem-list-headlines {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 20px;
+  
+  
 }
 .musuem-list-headlines h1 {
   font-family: "Nueu-Machina";
@@ -31,10 +38,10 @@
 .musuem-list-headlines p {
   font-family: "Mariupol";
   font-size: 20px;
-  width: 936px;
-  margin-left: 250px;
+  max-width: 936px;
   line-height: 1.4;
   margin-top: 10px;
+  text-align: center;
 }
 .museum-list-buttons {
   display: flex;
@@ -43,7 +50,7 @@
 }
 
 .cardRow-container {
-  height: 1100px;
+  height: auto;
   
 }
 .index-btns {
@@ -80,4 +87,62 @@
   padding-top: 2px;
   padding-bottom: 5px;
   font-family: "OpenSans-Bold";
+}
+@media (min-width: 1282px) and (max-width:1322px){
+  .museum-card-spacing {
+ margin: 10px;
+}
+}
+@media (min-width:957px) and (max-width:996px){
+  .museum-card-spacing {
+ margin: 10px;
+}
+}
+@media (min-width:631px) and (max-width:671px){
+  .museum-card-spacing {
+ margin: 10px;
+}
+}
+@media(min-width: 599px) and (max-width: 631px){
+  .museum-card-spacing {
+ margin: 2px;
+}
+}
+@media (max-width: 475px) {
+  .musuem-list-headlines h1 {
+
+  font-size: 25px;
+  margin-top: -15px;
+  text-align: left;
+}
+.musuem-list-headlines p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 15px;
+  text-align: left;
+}
+.musuem-list-headlines {
+  margin-right: 5%;
+}
+.cardRow-container {
+  margin-left:-20px;
+}
+}
+@media (min-width: 475px) and (max-width: 640px) {
+  .musuem-list-headlines h1 {
+    text-align: left;
+  }
+  .musuem-list-headlines p {
+
+  text-align: left;
+}
+}
+@media (min-width: 640px) and (max-width: 768px) {
+  .musuem-list-headlines h1 {
+    text-align: center;
+  }
+  .musuem-list-headlines p {
+
+  text-align: center;
+}
 }

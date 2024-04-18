@@ -27,7 +27,7 @@ const Testimony = () => {
             </p>
           </div>
           <div className="multiple-cards-container">
-            <div className="row-one">
+            <div className="row-test-cards">
               <TestimonyCard
                 testimonyCardImage={cardImages[1]}
                 previewImages={previewImages}
@@ -48,8 +48,7 @@ const Testimony = () => {
                 previewImages={previewImagesTwo}
               />
               <div className="testimony-card-spacing"></div>
-            </div>
-            <div className="row-two">
+              
               <TestimonyCard
                 testimonyCardImage={cardImages[1]}
                 previewImages={previewImages}
@@ -70,6 +69,7 @@ const Testimony = () => {
                 previewImages={previewImagesTwo}
               />
               <div className="testimony-card-spacing"></div>
+    
             </div>
           </div>
         </div>
