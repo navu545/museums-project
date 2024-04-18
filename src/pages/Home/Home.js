@@ -19,15 +19,17 @@ const Home = () => {
 
  const scrollToContacts = useRef(null);
  const scrollToSponsor = useRef(null);
+ const scrollToTop = useRef(null);
 
  const toggleScroll = () => {
    scrollToContacts.current?.scrollIntoView({ behavior: "smooth" });
    scrollToSponsor.current?.scrollIntoView({ behavior: "smooth" });
+   scrollToTop.current?.scrollIntoView({ behavior: "smooth" });
  };
 
   return (
     <div className="home-page">
-      <Navbar toggleScroll={toggleScroll} />
+      <Navbar toggleScroll={toggleScroll} scrollTo={scrollToTop} />
       <div className="component-spacing-1"></div>
 
       <Header toggleScroll={toggleScroll} />
@@ -39,9 +41,7 @@ const Home = () => {
       <Info />
       <div className="component-spacing-4"></div>
 
-      
       <Museum />
-      
 
       <div className="component-spacing-5"></div>
 
@@ -60,7 +60,7 @@ const Home = () => {
       <Contacts scrollTo={scrollToContacts} />
       <div className="component-spacing-10"></div>
 
-      <Footer />
+      <Footer toggleScroll={toggleScroll} />
     </div>
   );
 };

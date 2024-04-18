@@ -1,65 +1,69 @@
-.content-container-wrapper{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.content-container-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
 }
-.content-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 1256px;
-    height: 100px; /*might be a problem*/
-    background-color: #E9F0ED;
-    border-radius: 10px;
-    font-family: 'Mariupol';
+.content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1256px;
+  background-color: #e9f0ed;
+  border-radius: 10px;
+  font-family: "Mariupol";
+  overflow: hidden;
+  margin-left: 5%;
+  margin-right: 6%;
 }
-.content-container.expanded{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 1256px;
-    height: 450px; /*might be a problem*/
-    background-color: #E9F0ED;
-    border-radius: 10px;
-    font-family: 'Mariupol';
-
+.content-container.expanded .tab-component-text {
+  opacity: 1; /* Make text content visible when expanded */
+  transform: translateY(0); /* Move text content to its original position */
 }
 
-.microphone-container img{
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
+.content-container.expanded {
+  height: auto;
+}
+.microphone-container {
+  align-self: flex-start;
+}
+.microphone-container img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
 }
 .tab-component-text {
-    margin-top: -20px;
-
+  flex-grow: 1;
+  overflow-y: auto;
+  transform: translateY(-5px); 
+  transition:   transform 0.3s ease-in-out;
 }
-.tab-component-text p{
-    max-height: 52px;
-    
-    line-height: 1.6;
-    font-size: 20px;
-    margin-right: 40px;
-    margin-bottom: 10px;
-    color: #171717;
-
-}
-.tab-component-text.expanded p{
-    max-height: 360px;
-    margin-top: -20px;
-
-    
-}
-.tab-component-span{
-    text-decoration: underline;
-}
-.tab-component-span:hover{
-    cursor: pointer;
-}
-.microphone-container.expanded {
-    margin-bottom: 350px;
+.tab-component-text p {
+  line-height: 1.6;
+  font-size: 20px;
+  margin-right: 40px;
+  color: #171717;
 }
 
+.tab-component-span {
+  text-decoration: underline;
+}
+.tab-component-span:hover {
+  cursor: pointer;
+}
+@media (max-width:475px) {
+    .microphone-container {
+  display: none;
+}
+.tab-component-text p {
+  
+  margin-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+}

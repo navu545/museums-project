@@ -9,13 +9,14 @@ const Museums = () => {
     <div className="musuems-container-wrapper">
       <div className="museums-container">
         <h1 className="Museums-headline">Museums we are working with</h1>
+
         <div className="Museums-cards-holder">
           <MuseumCard />
-          <div className="museum-card-spacing"></div>
+          <div className="museum-card-spacing-main"></div>
           <MuseumCard />
-          <div className="museum-card-spacing"></div>
+          <div className="museum-card-spacing-main"></div>
           <MuseumCard />
-          <div className="museum-card-spacing"></div>
+          <div className="museum-card-spacing-main"></div>
           <MuseumCard />
         </div>
         <div className="museums-btn-container">

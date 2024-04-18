@@ -5,28 +5,32 @@
     align-items: center;
 }
 .about-us-container{
-    width: 1256px;
-    height: 514px;
+    max-width: 1256px;
+    min-height: 514px;
     display: flex;
     background-color: #FEFCD3;
     border-radius: 10px;
+    padding-right: 50px;
+    overflow: hidden;
 }
 .about-us-img{
-    width:524px;
-    height:356px;
+    max-width:524px;
+    height:auto;
     margin-top: 74px;
     margin-left: 54px;
 }
 .about-us-img img{
-    width: 105%;
+    max-width: 105%;
     height: auto;
 }
 
 .about-us-text{
-    width:524px;
-    height:416px;
+    max-width:524px;
+    height:auto;
     margin-left: 80px; 
     margin-top: 20px;
+    
+    
 }
 .about-us-text h1{
     font-family: 'Nueu-Machina';
@@ -37,4 +41,44 @@
     font-family: 'Mariupol';
     font-size: 18px;
     line-height: 1.5;
+}
+@media (max-width: 1110px) {
+    .about-us-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        
+    }
+    .about-us-text{
+    
+    margin-left: 0px; 
+    margin-top: -30px;
+    
+    
+}
+    .about-us-img{
+    
+    margin-top: 10px;
+    margin-left: -20px;
+}
+}
+@media (max-width: 639px) {
+    .about-us-container{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 7%;
+        
+    }
+    .about-us-text h1{
+    margin-top: 30px;
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+
+}
+@media (max-width: 400px) {
+    .about-us-img{
+        margin-left: -10px;
+    }
 }
