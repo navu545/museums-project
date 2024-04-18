@@ -3,12 +3,13 @@
     justify-content: center;
 }
 .testimonies-container{
-    width: 1440px;
-    height: 756px;
+    max-width: 1440px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+    
 }
 .testimonies-headlines{
     text-align: center;
@@ -34,6 +35,7 @@
     height: 296px;
     display: flex;
     margin-left: 178px;
+    
 }
 .testimony-card-spacing{
     margin: 20px;

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Microphone } from "../../assets/images";
 import "./TabComponentsFrame.css";
-import ContentText from "./ContentText";
 
 const TabComponentsFrame = () => {
   const [expanded, setExpanded] = useState(false);
@@ -19,6 +18,7 @@ const TabComponentsFrame = () => {
           </div>
           <div className={`tab-component-text ${expanded ? "expanded" : ""}`}>
             {!expanded && (
+              
               <p className="content">
                 On February 24th, russia launched an unprovoked, brutal
                 war on Ukraine. Since the beginning of the
@@ -28,6 +28,7 @@ const TabComponentsFrame = () => {
                   read more
                 </span>
               </p>
+              
             )}
             {expanded && (
               <p className="content-expanded">

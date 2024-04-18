@@ -7,10 +7,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .process-steps-container{
     display: flex;
-    margin-right: -50px;
+    margin-right: -55px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .image-text-container{
     text-align: center;
@@ -36,4 +39,10 @@
     font-family: 'Nueu-Machina';
     font-size: 16px;
     margin-bottom: 10px;
+}
+@media (min-width: 657px) and (max-width: 1012px) {
+.process-steps-container{
+    margin-right: -45px;
+    
+}
 }

@@ -1,7 +1,8 @@
-.Museums-cards-holder {
+.Museums-list-cards-holder {
   display: flex;
   margin-left: 65px;
   margin-bottom: 15px;
+  
 }
 .museum-card-spacing {
   margin: 20px;
@@ -12,7 +13,7 @@
 }
 .museum-list-container {
   margin-top: 50px;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
@@ -43,6 +44,7 @@
 
 .cardRow-container {
   height: 1100px;
+  
 }
 .index-btns {
   width: 30px;

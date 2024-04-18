@@ -90,7 +90,7 @@ const MuseumsListHolder = () => {
     cardRows.push(group);
   }
   const cardRow = cardRows.map((element, index) => (
-    <div className="Museums-cards-holder" key={index}>
+    <div className="Museums-list-cards-holder" key={index}>
       {element}
     </div>
   ));
