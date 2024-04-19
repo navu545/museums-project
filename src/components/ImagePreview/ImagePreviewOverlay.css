@@ -16,8 +16,8 @@
     background-color: transparent;
     border-radius: 5px;
     position: relative;
-    height: 500px;
-    width: 700px;
+    max-height: 500px;
+    max-width: 700px;
     display: flex;
     align-items: center;
     margin-top: 300px;
@@ -79,4 +79,35 @@
 }
 .next-img-btn.final:hover{
     opacity: 10%;
+}
+@media (max-width: 475px) {
+.preview-images{
+    width: 80%;
+    height: 55%;
+    border-radius: 25px;
+
+}
+.image-preview-container{
+    margin-left: 2%;
+}
+}
+@media (min-width:475px) and (max-width: 640px) {
+.preview-images{
+    width: 80%;
+    height: 55%;
+    border-radius: 25px;
+
+}
+.image-preview-container{
+    margin-left: 2%;
+}
+}
+@media (min-width: 640px) and (max-width: 768px) {
+    .preview-images{
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+
+}
+
 }

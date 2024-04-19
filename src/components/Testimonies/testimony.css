@@ -1,18 +1,25 @@
 .testimonies-wrapper{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .testimonies-container{
-    width: 1440px;
-    height: 756px;
+    max-width: 1440px;
+    height: auto;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
     margin-top: 30px;
+    overflow: hidden;
+    
+    
 }
 .testimonies-headlines{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 30px;
+    
 }
 .testimonies-headlines h1{
     font-family: 'nueu-machina';
@@ -20,21 +27,72 @@
 .testimonies-headlines p{
     font-family: 'mariupol';
     font-size: 20px;
+    margin-top: -5px;
 }
-.row-one{
-    width: 1440px;
-    height: 296px;
+.multiple-cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-test-cards{
+    margin-left: 30px;
+    max-width: 1440px;
+    height: auto;
     display: flex;
     margin-bottom: 40px;
-    margin-left: 178px;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
-.row-two{
-    width: 1440px;
-    height: 296px;
-    display: flex;
-    margin-left: 178px;
-}
+
 .testimony-card-spacing{
     margin: 20px;
+}
+@media (max-width: 475px) {
+    .testimonies-headlines h1{
+    text-align: left;
+    font-size: 28px;
+    margin-top: 0px;
+}
+.testimonies-headlines p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: -5px;
+    text-align: left;
+}
+.testimonies-headlines{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    
+}
+.row-test-cards{
+    margin-left: 0px;
+}
+}
+@media (min-width: 475px) and (max-width: 640px) {
+    .row-test-cards{
+        margin-left: 20px;
+    }
+}
+@media (min-width: 1286px ) and (max-width: 1326px) {
+    .testimony-card-spacing{
+        margin: 15px;
+    }
+}
+@media (min-width: 962px ) and (max-width: 1002px) {
+    .testimony-card-spacing{
+        margin: 13px;
+    }
+}
+@media (min-width: 628px ) and (max-width: 678px) {
+    .testimony-card-spacing{
+        margin: 10px;
+    }
+}
+@media (min-width: 600px) and (max-width: 628px){
+    .testimony-card-spacing{
+        margin: 3px;
+    }
 }

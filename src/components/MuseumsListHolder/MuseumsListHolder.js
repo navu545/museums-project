@@ -29,7 +29,7 @@ const cardsArray = [
   <MuseumCardColored />,
   <MuseumCardColored />,
   <MuseumCardColored />,
-  
+  <MuseumCardColored />,
 ];
 
 const MuseumsListHolder = () => {
@@ -72,7 +72,7 @@ const MuseumsListHolder = () => {
     }
   }, [lowerIndex, upperIndex]);
 
-  const maxRowCards = 4;
+  const maxRowCards = 12;
   const rowSpacing = [];
   const cardRows = [];
 
@@ -90,10 +90,11 @@ const MuseumsListHolder = () => {
     cardRows.push(group);
   }
   const cardRow = cardRows.map((element, index) => (
-    <div className="Museums-cards-holder" key={index}>
+    <div className="Museums-list-cards-holder" key={index}>
       {element}
     </div>
   ));
+
   
   const loadPage = (e) => {
     

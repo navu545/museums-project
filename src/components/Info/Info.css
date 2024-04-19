@@ -1,25 +1,29 @@
 .save-ukr-wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    
+    
 }
 .save-ukr-container{
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 504px; 
+    max-width: 1400px;
+    height: auto;
+    
+    
 }
 .save-ukr-img img{
-    width: 608px;
-    height:430px;
+    max-width: 608px;
     margin-top: 35px;
 }
 .save-ukr-text-box{
-    width: 568px;
-    height: 504px;
+    max-width: 568px;
+    height: auto;
     margin-left: 40px;
+    
 }
 .save-ukr-img{
     margin-right: 40px;
@@ -31,6 +35,7 @@
     align-items: center;
     text-align: center;
     background-color: #f8faf9;
+    flex-wrap: wrap;
 }
 .save-ukr-box-one{
     margin-right: 40px;
@@ -51,7 +56,7 @@
     
 }
 .save-ukr-box-one p{
-    width: 140px;
+    max-width: 140px;
     margin-top: -7px;
     line-height: 1.2;
 }
@@ -68,3 +73,101 @@
 .right-box{
     margin-top: -6.8px;
 }
+@media (max-width: 921px) {
+   
+
+    
+}
+@media (max-width: 1800px) {
+    .save-ukr-text-box{
+    margin-left: 0px;
+    
+}
+
+}
+@media(max-width: 639px) {
+.save-ukr-container{
+    margin-top: -80px;
+}
+.save-ukr-text h1{
+   font-size: 26px;
+   margin-bottom: -5px;
+}
+.save-ukr-text{
+    padding: 15px;
+}
+.save-ukr-img{
+    display: none;
+}
+.save-ukr-box{
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.save-ukr-box-one p{
+    max-width: 160px;
+}
+.left-box{
+    margin-left: 0px;
+}
+.middle-box{
+    margin-top: 5px;
+}
+.right-box{
+    margin-top: 5px;
+}
+.save-ukr-box-one{
+    margin-right: 0px;
+    
+    
+}
+}
+@media (min-width: 639px) and (max-width:920px){
+    .save-ukr-img img {
+        max-width: 80%; 
+    }
+    .save-ukr-img {
+        margin-right: 24px;
+        text-align: center;
+    }
+     .save-ukr-container{
+        flex-direction: column-reverse;
+        overflow: hidden;
+        height: auto;
+}
+    
+}
+@media (min-width: 921px) and (max-width: 1024px) {
+    .save-ukr-text-box {
+        margin-right: 30px;
+    }
+    .save-ukr-img img{
+    max-width: 508px;
+   
+}
+.save-ukr-container{
+    margin-top: -50px;
+}
+.left-box{
+    margin-left: 0px;
+}
+.middle-box{
+    margin-top: 5px;
+}
+.right-box{
+    margin-top: 5px;
+}
+.save-ukr-box-one{
+    margin-right: 13px;
+    
+    
+}
+
+}
+@media (min-width: 1024px) {
+    .save-ukr-text-box {
+        margin-right: 10px;
+    }
+
+}
+

@@ -1,175 +1,279 @@
-.form-container-wrapper{
-    display: flex;
-    justify-content: center;
-    
+.form-container-wrapper {
+  display: flex;
+  justify-content: center;
 }
-.form-container{
-    background-color: #D3E0DB;
-    width:1392px;
-    height: 602px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    position: relative;
-    border-radius: 20px;
-    overflow:hidden;
+.form-container {
+  background-color: #d3e0db;
+  width: 1392px;
+  height: 602px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.form-headline-div{
-    height:192px;
-    width: 568px;
-    margin-left: 80px;
-    margin-top: -360px;
-    font-family: 'Nueu-Machina';
-    font-size: 20px;
+.form-headline-div {
+  height: 192px;
+  width: 568px;
+  margin-left: 80px;
+  margin-top: -360px;
+  font-family: "Nueu-Machina";
+  font-size: 20px;
 }
-.form-input-section{
-    height: 447px;
-    width: 500px;
-    background-color: white;
-    margin-left: 175px;
-    border-radius: 20px;
-    z-index: 3;
+.form-input-section {
+  height: 447px;
+  max-width: 500px;
+  background-color: white;
+  margin-left: 175px;
+  border-radius: 20px;
+  z-index: 3;
 }
-.form-inputs-container{
-    display: flex;
+.form-inputs-container {
+  display: flex;
+  flex-direction: column;
+  height: 242px;
+  max-width: 420px;
+  margin-left: 40px;
+}
+.form-btn-container {
+  width: 420px;
+  height: 29px;
+  margin-top: 35px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.input-field-name {
+  height: 48px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 0 0.5px grey;
+  padding: 7px;
+}
+.input-field-name::placeholder {
+  font-family: "Mariupol";
+}
+.input-field-email {
+  margin-top: 20px;
+  height: 48px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 0 0.5px grey;
+  padding: 7px;
+}
+.input-field-email::placeholder {
+  font-family: "Mariupol";
+}
+.text-area-message {
+  margin-top: 20px;
+  height: 122px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 0 0.5px grey;
+  padding: 10px;
+  resize: none;
+  font-family: "Mariupol";
+}
+
+.form-submit-btn {
+  width: 160px;
+  height: 42px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  margin-left: 170px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-family: "Mariupol";
+  font-size: 16px;
+  border: none;
+}
+.spnsr-msm-btn {
+  margin-right: 25px;
+  margin-left: -10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Mariupol";
+}
+.help-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Mariupol";
+}
+
+.btn-line {
+  width: 2020px;
+  height: 0.4px;
+  background-color: grey;
+  margin-left: -760px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  transform: scale(0.21);
+}
+
+.spnsr-msm-btn.active:after {
+  content: "";
+  display: block;
+  width: 187%;
+  height: 0.4px;
+  background-color: black;
+  margin-top: 12px;
+  margin-left: -78px;
+ 
+}
+
+.help-btn.active::after {
+  content: "";
+  display: block;
+  width: 188%;
+  height: 0.4px;
+  background-color: black;
+  margin-top: 12px;
+  margin-left: -17px;
+}
+.tape-down {
+  position: absolute;
+  width: 138.7%;
+  z-index: 2;
+  transform: rotate(0deg);
+  height: auto;
+  margin-left: -5px;
+}
+.tape-up {
+  position: absolute;
+  width: 138.7%;
+  z-index: 1;
+  margin-top: -36px;
+  transform: rotate(1deg);
+  height: auto;
+  margin-left: -177px;
+}
+.tape-container {
+  margin-bottom: -150px;
+  overflow: hidden;
+}
+
+.error-text {
+  font-family: "Mariupol";
+  color: red;
+  margin-left: 130px;
+}
+.char-remaining {
+  margin-top: 230px;
+  position: absolute;
+  margin-left: 359px;
+  font-size: 8px;
+  z-index: 2;
+  font-family: "Mariupol";
+  color: grey;
+}
+@media (max-width: 1122px) {
+  .tape-down,
+  .tape-up {
+    display: none;
+  }
+
+  .form-container {
     flex-direction: column;
-    height:242px;
-    width: 420px;
-    margin-left: 40px;
-
-    
-
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .form-headline-div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 430px;
+    margin-left: 0px;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .form-headline {
+    margin-top: 500px;
+  }
+  .form-input-section {
+    margin-left: -20px;
+  }
+  .help-btn.active::after {
+    left: 49%;
+    bottom: 402px;
+  }
+  .spnsr-msm-btn.active::after {
+    left: 33.5%;
+    bottom: 402px;
+  }
 }
-.form-btn-container{
-    width: 420px;
-    height:29px;
-    margin-top: 35px;
-    margin-left: 120px;
-    margin-bottom: 20px;
+@media (max-width: 884px) {
+  .form-headline-div {
+    font-size: 15.5px;
+  }
 }
-
-.input-field-name{
-    height: 48px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 0 0 0 0.5px grey;
-    padding: 7px;
-}
-.input-field-name::placeholder{
-    font-family: 'Mariupol';
-}
-.input-field-email{
+@media (max-width: 511px) {
+  .form-headline-div {
+    font-size: 11.5px;
+    text-align: left;
+    margin-left: 25px;
+  }
+  .form-container {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .form-input-section {
+    margin-left: 0px;
+    height: 417px;
+    width: 290px;
+    margin-top: 10px;
+  }
+  .form-inputs-container {
+    margin-left: 0px;
+  }
+  .form-inputs-container input {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .form-inputs-container textarea {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .form-btn-container {
+    margin-left: 17px;
+  }
+  .form-submit-btn {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .form-btn-container {
     margin-top: 20px;
-    height: 48px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 0 0 0 0.5px grey;
-    padding: 7px;
-}
-.input-field-email::placeholder{
-    font-family: 'Mariupol';
-}
-.text-area-message{
-    margin-top: 20px;
-    height: 122px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 0 0 0 0.5px grey;
-    padding: 10px;
-    resize: none;
-    font-family: 'Mariupol';
-    
-}
-
-.form-submit-btn{
-    width:160px;
-    height:42px;
-    background-color: black;
-    color: white;
-    border-radius: 30px;
-    margin-left: 170px;
-    margin-top: 25px;
-    cursor: pointer;
-    font-family: 'Mariupol';
-    font-size: 16px;
-    border: none;
-}
-.spnsr-msm-btn{
-    margin-right: 25px;
-    margin-left: -10px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-family: 'Mariupol';
-
-}
-.spnsr-msm-btn.active::after{
-    content: '';
-    position: absolute;
-    bottom: 460px;
-    left: 860px;
-    width: 15%;
-    height: 1px;
-    background-color: black;
-}
-.help-btn{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-family: 'Mariupol';
-}
-.help-btn.active::after{
-    content: '';
-    position: absolute;
-    bottom: 460px;
-    left: 1069px;
-    width: 15.30%;
-    height: 1px;
-    background-color: black;
-}
-.btn-line{
-    width:2020px;
-    height:.4px;
+  }
+  .btn-line {
+    width: 1320px;
     background-color: grey;
-    margin-left: -760px;
+    margin-left: -515px;
     margin-top: -20px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     transform: scale(0.21);
+  }
+  
+.char-remaining {
+  margin-top: 228px;
+  margin-left: 215px;
 }
-.tape-down{
-    position: absolute;
-    width: 138.7%;
-    z-index: 2;
-    transform: rotate(0deg);
-    height: auto;
-    margin-left: -5px;
-}
-.tape-up{
-    position: absolute;
-    width: 138.7%;
-    z-index:1;
-    margin-top: -36px;
-    transform: rotate(1deg);
-    height: auto;
-    margin-left: -177px;
-}
-.tape-container{
-    margin-bottom: -150px;
-    overflow:hidden;
+.spnsr-msm-btn.active:after {
+  width: 124%;
+  margin-left: -6px;
+ 
 }
 
-.error-text{
-    font-family: 'Mariupol';
-    color: red;
-    margin-left: 130px;
+.help-btn.active::after {
+  width: 123%;
+  margin-left: -17px;
 }
-.char-remaining{
-    margin-top: 230px;
-    position: absolute;
-    margin-left: 359px;
-    font-size: 8px;
-    z-index: 2;
-    font-family: 'Mariupol';
-    color: grey;
+}
+@media (min-width: 511px) and (max-width: 1121px) {
+  .form-input-section {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 }

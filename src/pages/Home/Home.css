@@ -1,6 +1,7 @@
 .home-page{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     min-height: 100vh;
 }
 .component-spacing-2{

@@ -1,25 +1,25 @@
 .footer-wrapper{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
     margin-top: auto;
-    
+    background-color: black;
 }
 
 .footer-container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: black;
-    height: 72px;
+    max-width: 1250px;
+    min-height: 72px;
     
 }
 
 .footer-para-div{
     display:flex;
     margin-right: 10px;
-    margin-left: 950px;
     font-family: 'mariupol';
     color: white;
 }
@@ -40,5 +40,17 @@
     color: inherit;
 }
 .footer-logo{
-    margin-left: -10px;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.msm-ftr{
+    min-width: 153px;
+}
+@media (max-width: 475px) {
+    .footer-para-div{
+        display: none;
+    }
+    .footer-logo{
+        margin-right: -10%;
+    }
 }

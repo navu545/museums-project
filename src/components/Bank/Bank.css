@@ -1,53 +1,98 @@
-.Bank-info-wrapper{
-    display: flex;
-    justify-content: center;
+.Bank-info-wrapper {
+  display: flex;
+  justify-content: center;
 }
-.Bank-info-container{
-    width: 776px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.Bank-info-container {
+  max-width: 976px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-.Bank-info-headline{
-    font-family: 'nueu-machina';
-    margin-top: 30px;
+.Bank-info-headline {
+  font-family: "nueu-machina";
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.clover-QR {
+  max-width: 776px;
+  display: flex;
+  border: 2px solid lightgray;
+  padding: 30px 30px 30px 30px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+.PayPal-QR {
+  margin-top: 50px;
+  max-width: 776px;
+  display: flex;
+  border: 2px solid lightgray;
+  padding: 30px 30px 30px 30px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+.clover-info {
+  margin-top: 105px;
+  margin-left: 40px;
+  font-family: "montserrat";
+}
+
+.paypal-info {
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: "montserrat";
+}
+.bank-clover {
+  margin-bottom: -7px;
+}
+.paypal-one {
+  margin-bottom: -7px;
+}
+@media (max-width: 704px) {
+  .QR-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .clover-QR {
+    flex-direction: column-reverse;
+  }
+
+  .PayPal-QR {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+  .clover-info {
+    margin-top: 0;
+    margin-left: 0;
+    font-family: "montserrat";
+  }
+  .paypal-info {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "montserrat";
+  }
+  .paypal-qr-img {
+    margin-left: 3px;
+  }
+}
+@media (max-width: 475px) {
+  .clover-QR {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .PayPal-QR {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .Bank-info-headline {
+    margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 20px;
-}
-.clover-QR{
-    
-    width: 776px;
-    display: flex;
-    border: 2px solid lightgray;
-    padding: 30px 30px 30px 30px;
-    border-radius: 20px;
-    
-}
-
-.PayPal-QR{
-    margin-top: 50px;
-    width: 776px;
-    display: flex;
-    border: 2px solid lightgray;
-    padding: 30px 30px 30px 30px;
-    border-radius: 20px;
-    
-}
-.clover-info{
-    margin-top: 105px;
-    margin-left: 40px;
-    font-family: 'montserrat';
-}
-
-.paypal-info{
-    margin-left: 40px;
-    margin-top: 30px;
-    font-family: 'montserrat';
-}
-.bank-clover{
-    margin-bottom: -7px;
-}
-.paypal-one{
-    margin-bottom: -7px;
+    font-size: 14px;
+  }
 }

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .header-container{
@@ -9,12 +10,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:1440px;
-    height: 641px;
+    max-width:1440px;
+    height: auto;
+    overflow: hidden;
 }
 .header-headlines-container{
-    width: 596px;
-    height: 352px;
+    max-width: 596px; /*changed*/
     margin-left: 92px;
 
 }
@@ -35,7 +36,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 596px;
+    min-width: 596px;
     height: 401px;
     margin-right: 120px;
     position: relative;
@@ -81,3 +82,90 @@
     left: 0;
     z-index: 0;
 }
+@media (max-width: 1028px) {
+    .header-container{
+        flex-direction: column;
+        margin-left: -70px;
+    }
+
+    }
+@media (max-width: 475px) {
+
+    .header-imgs-container{
+    max-width: 296px;
+    height: 221px;
+    margin-top: 45px;
+    position: relative;
+}
+.tilt-img{
+    top: 9;
+    left: -113px;
+    z-index: 1;
+}
+.header-headlines-container h1{
+    font-family: 'Nueu-Machina';
+    font-size: 34px;
+}
+.header-headlines-container p{
+    font-size: 18.4px;
+    
+}
+.header-container{
+    margin-left: -81px;
+}
+.header-btn{
+    width: 290px;
+    font-size: 17px;
+    margin-left: 4px;
+}
+}
+@media (min-width: 640px) and (max-width:768px) {
+    .header-headlines-container h1{
+    font-size: 34px;
+}
+.header-headlines-container p{
+    font-size: 18.4px;
+    
+}
+.header-container{
+        flex-direction: column;
+        margin-left: -100px;
+    }
+.header-btn{
+    width: 200px;
+    margin-left: -1px;
+}
+.header-imgs-container{
+    margin-left: 55px;
+    margin-top: 55px;
+    position: relative;
+}
+
+}
+@media (min-width:475px) and (max-width:639px) {
+    .header-headlines-container h1{
+    font-size: 34px;
+}
+.header-headlines-container p{
+    font-size: 18.4px;
+    
+}
+.header-container{
+    margin-left: -81px;
+}
+.header-imgs-container{
+    max-width: 296px;
+    height: 330px;
+    margin-top: 60px;
+    position: relative;
+    margin-left: 40px;
+}
+.tilt-img{
+    top: 10px;
+    left: -150px;
+    z-index: 1;
+}
+}
+
+  
+
