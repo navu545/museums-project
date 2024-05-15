@@ -20,7 +20,6 @@ const cardsArray = [
   <MuseumCardSix />,
   <MuseumCardSeven />,
   <MuseumCard />,
-
 ];
 
 const MuseumsListHolder = () => {
@@ -38,15 +37,18 @@ const MuseumsListHolder = () => {
       setLowerIndex(lowerIndex - 12);
       setUpperIndex(upperIndex - 12);
     }
-    if(activeIndex!==1){
-    setActiveIndex(activeIndex - 1);}
+    if (activeIndex !== 1) {
+      setActiveIndex(activeIndex - 1);
+    }
   };
   const nextArray = () => {
     if (lowerIndex < cardsArray.length && upperIndex < cardsArray.length) {
       setLowerIndex(lowerIndex + 12);
       setUpperIndex(upperIndex + 12);
     }
-    if (activeIndex < cardsArray.length / 12) { setActiveIndex(activeIndex + 1 );}
+    if (activeIndex < cardsArray.length / 12) {
+      setActiveIndex(activeIndex + 1);
+    }
   };
 
   useEffect(() => {
@@ -86,43 +88,35 @@ const MuseumsListHolder = () => {
     </div>
   ));
 
-  
   const loadPage = (e) => {
-    
-    setActiveIndex(parseInt(e.target.value,10));
+    setActiveIndex(parseInt(e.target.value, 10));
     setUpperIndex(12 * e.target.value);
     if (e.target.value === 1) {
       setLowerIndex(0);
     } else {
       setLowerIndex(12 * e.target.value - 12);
     }
-    
   };
 
   const n = cardsArray.length / 12;
 
   const indexes = [];
   for (let i = 0; i < n; i++) {
-    indexes.push(i+1);
+    indexes.push(i + 1);
   }
 
-  const indexButtons =
-    
-    indexes.map((indices, index) => (
-      
-      <button
-        value={indices}
-        key={index}
-        className={`index-btns ${indices ===activeIndex? 'active':""}`}
-        onClick={(e) => {
-          loadPage(e);
-        }}
-      >
-        {indices < 10 ? "0" + indices : indices}
-      </button> 
-      
-    
-      )); 
+  const indexButtons = indexes.map((indices, index) => (
+    <button
+      value={indices}
+      key={index}
+      className={`index-btns ${indices === activeIndex ? "active" : ""}`}
+      onClick={(e) => {
+        loadPage(e);
+      }}
+    >
+      {indices < 10 ? "0" + indices : indices}
+    </button>
+  ));
 
   return (
     <>
