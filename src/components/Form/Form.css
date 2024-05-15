@@ -3,7 +3,7 @@
   justify-content: center;
 }
 .form-container {
-  background-color: #d3e0db;
+  background-color:rgba(229, 229, 229, 1);
   width: 1392px;
   height: 602px;
   display: flex;
@@ -19,11 +19,11 @@
   width: 568px;
   margin-left: 80px;
   margin-top: -360px;
-  font-family: "Nueu-Machina";
+  font-family: "glock";
   font-size: 20px;
 }
 .form-input-section {
-  height: 447px;
+  min-height: 507px;
   max-width: 500px;
   background-color: white;
   margin-left: 175px;
@@ -33,7 +33,6 @@
 .form-inputs-container {
   display: flex;
   flex-direction: column;
-  height: 242px;
   max-width: 420px;
   margin-left: 40px;
 }
@@ -46,35 +45,35 @@
 }
 
 .input-field-name {
-  height: 48px;
-  border-radius: 20px;
+  height: 30px;
+  border-radius: 10px;
   border: none;
   box-shadow: 0 0 0 0.5px grey;
   padding: 7px;
 }
 .input-field-name::placeholder {
-  font-family: "Mariupol";
+  font-family: "aktiv";
 }
 .input-field-email {
-  margin-top: 20px;
-  height: 48px;
-  border-radius: 20px;
+  margin-top: 12px;
+  height: 30px;
+  border-radius: 10px;
   border: none;
   box-shadow: 0 0 0 0.5px grey;
   padding: 7px;
 }
 .input-field-email::placeholder {
-  font-family: "Mariupol";
+  font-family: "aktiv";
 }
 .text-area-message {
-  margin-top: 20px;
-  height: 122px;
-  border-radius: 20px;
+  margin-top: 12px;
+  height: 120px;
+  border-radius: 10px;
   border: none;
   box-shadow: 0 0 0 0.5px grey;
   padding: 10px;
   resize: none;
-  font-family: "Mariupol";
+  font-family: "aktiv";
 }
 
 .form-submit-btn {
@@ -92,11 +91,13 @@
 }
 .spnsr-msm-btn {
   margin-right: 25px;
-  margin-left: -10px;
+  margin-left: 90px;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  font-family: "Mariupol";
+  font-family: "aktiv-med";
+  font-size: 14px;
+  font-weight:bold;
 }
 .help-btn {
   border: none;
@@ -106,16 +107,16 @@
 }
 
 .btn-line {
-  width: 2020px;
-  height: 0.4px;
-  background-color: grey;
-  margin-left: -760px;
+  width: 420px;
+  height: 2px;
+  background-color: black;
+  margin-left: 40px;
   margin-top: -20px;
   margin-bottom: 30px;
-  transform: scale(0.21);
+  
 }
 
-.spnsr-msm-btn.active:after {
+/* .spnsr-msm-btn.active:after {
   content: "";
   display: block;
   width: 187%;
@@ -124,7 +125,7 @@
   margin-top: 12px;
   margin-left: -78px;
  
-}
+} */
 
 .help-btn.active::after {
   content: "";
@@ -163,7 +164,7 @@
   margin-left: 130px;
 }
 .char-remaining {
-  margin-top: 230px;
+  margin-top: 290px;
   position: absolute;
   margin-left: 359px;
   font-size: 8px;
@@ -207,12 +208,12 @@
 }
 @media (max-width: 884px) {
   .form-headline-div {
-    font-size: 15.5px;
+    font-size: 13.5px;
   }
 }
 @media (max-width: 511px) {
   .form-headline-div {
-    font-size: 11.5px;
+    font-size: 10.5px;
     text-align: left;
     margin-left: 25px;
   }
@@ -257,7 +258,7 @@
   }
   
 .char-remaining {
-  margin-top: 228px;
+  margin-top: 290px;
   margin-left: 215px;
 }
 .spnsr-msm-btn.active:after {
@@ -275,5 +276,15 @@
   .form-input-section {
     margin-left: 10px;
     margin-top: 10px;
+  }
+}
+@media (min-width:1122px) and (max-width: 1224px){
+  .form-headline-div {
+    font-size: 16px;
+  }
+}
+@media (min-width: 885px) and (max-width:972px){
+  .form-headline-div {
+    font-size: 16px;
   }
 }

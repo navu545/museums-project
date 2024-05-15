@@ -9,9 +9,10 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .Bank-info-headline {
-  font-family: "nueu-machina";
+  font-family: "glock";
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 20px;
@@ -35,8 +36,8 @@
   flex-wrap: wrap;
 }
 .clover-info {
-  margin-top: 105px;
-  margin-left: 40px;
+  margin-top: 65px;
+  margin-left: 60px;
   font-family: "montserrat";
 }
 
@@ -48,8 +49,17 @@
 .bank-clover {
   margin-bottom: -7px;
 }
+
 .paypal-one {
   margin-bottom: -7px;
+}
+.paypal-qr-img img{
+  max-width: 186px;
+}
+.clover-qr-img img{
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 156px;
 }
 @media (max-width: 704px) {
   .QR-container {
@@ -79,6 +89,10 @@
   .paypal-qr-img {
     margin-left: 3px;
   }
+  .Bank-info-headline {
+    
+    font-size: 18px;
+  }
 }
 @media (max-width: 475px) {
   .clover-QR {
@@ -94,5 +108,11 @@
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 14px;
+  }
+}
+@media (max-width: 355px) {
+  .Bank-info-headline {
+    
+    font-size: 12px;
   }
 }

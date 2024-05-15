@@ -1,35 +1,25 @@
 import { useState, React, useEffect } from "react";
 import { arrowselectright, arrowselectleft } from "../../assets/images";
 import MuseumCard from "../MuseumCard/MuseumCard";
+import MuseumCardOne from "../MuseumCard/MuseumCardOne";
+import MuseumCardTwo from "../MuseumCard/MuseumCardTwo";
+import MuseumCardThree from "../MuseumCard/MuseumCardThree";
+import MuseumCardFour from "../MuseumCard/MuseumCardFour";
+import MuseumCardFive from "../MuseumCard/MuseumCardFive";
+import MuseumCardSix from "../MuseumCard/MuseumCardSix";
+import MuseumCardSeven from "../MuseumCard/MuseumCardSeven";
 import MuseumCardColored from "../MuseumCard/MuseumCardColored";
 import "./MuseumsListHolder.css";
 
 const cardsArray = [
+  <MuseumCardOne />,
+  <MuseumCardTwo />,
+  <MuseumCardThree />,
+  <MuseumCardFour />,
+  <MuseumCardFive />,
+  <MuseumCardSix />,
+  <MuseumCardSeven />,
   <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
 ];
 
 const MuseumsListHolder = () => {
@@ -47,15 +37,18 @@ const MuseumsListHolder = () => {
       setLowerIndex(lowerIndex - 12);
       setUpperIndex(upperIndex - 12);
     }
-    if(activeIndex!==1){
-    setActiveIndex(activeIndex - 1);}
+    if (activeIndex !== 1) {
+      setActiveIndex(activeIndex - 1);
+    }
   };
   const nextArray = () => {
     if (lowerIndex < cardsArray.length && upperIndex < cardsArray.length) {
       setLowerIndex(lowerIndex + 12);
       setUpperIndex(upperIndex + 12);
     }
-    if (activeIndex < cardsArray.length / 12) { setActiveIndex(activeIndex + 1 );}
+    if (activeIndex < cardsArray.length / 12) {
+      setActiveIndex(activeIndex + 1);
+    }
   };
 
   useEffect(() => {
@@ -95,43 +88,35 @@ const MuseumsListHolder = () => {
     </div>
   ));
 
-  
   const loadPage = (e) => {
-    
-    setActiveIndex(parseInt(e.target.value,10));
+    setActiveIndex(parseInt(e.target.value, 10));
     setUpperIndex(12 * e.target.value);
     if (e.target.value === 1) {
       setLowerIndex(0);
     } else {
       setLowerIndex(12 * e.target.value - 12);
     }
-    
   };
 
   const n = cardsArray.length / 12;
 
   const indexes = [];
   for (let i = 0; i < n; i++) {
-    indexes.push(i+1);
+    indexes.push(i + 1);
   }
 
-  const indexButtons =
-    
-    indexes.map((indices, index) => (
-      
-      <button
-        value={indices}
-        key={index}
-        className={`index-btns ${indices ===activeIndex? 'active':""}`}
-        onClick={(e) => {
-          loadPage(e);
-        }}
-      >
-        {indices < 10 ? "0" + indices : indices}
-      </button> 
-      
-    
-      )); 
+  const indexButtons = indexes.map((indices, index) => (
+    <button
+      value={indices}
+      key={index}
+      className={`index-btns ${indices === activeIndex ? "active" : ""}`}
+      onClick={(e) => {
+        loadPage(e);
+      }}
+    >
+      {indices < 10 ? "0" + indices : indices}
+    </button>
+  ));
 
   return (
     <>

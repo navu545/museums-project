@@ -1,0 +1,13 @@
+.Manifesto-Page-Container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.mani-spacing-one{
+    margin: 10px;
+}
+.mani-spacing-two{
+    margin: 30px
+}

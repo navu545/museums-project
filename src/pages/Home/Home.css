@@ -4,8 +4,11 @@
     overflow: hidden;
     min-height: 100vh;
 }
-.component-spacing-2{
+.component-spacing-1{
     height: 70px;
+}
+.component-spacing-2{
+    height: 110px;
 }
 .component-spacing-3{
     height: 100px;

@@ -20,15 +20,17 @@
 
 }
 .header-headlines-container h1{
-    font-family: 'Nueu-Machina';
+    font-family: 'glock';
     font-size: 53px;
 }
 .header-headlines-container p{
-    font-family: 'Mariupol';
+    font-family: 'aktiv';
     font-size: 24.4px;
     margin-top: -10px;
     margin-bottom: 25px;
     line-height: 1.4;
+    
+    
 }
 .header-imgs-container{
     margin-top: 85px;
@@ -61,9 +63,11 @@
     border-radius: 40px;
     width: 192px;
     height: 48px;
-    font-family: 'mariupol';
-    font-size: 17px;
+    font-family: 'glockreg';
+    font-size: 13px;
     border: 0px;
+    cursor: pointer;
+    
 }
 .header-btn:hover{
     background-color: darkgray;
@@ -103,7 +107,6 @@
     z-index: 1;
 }
 .header-headlines-container h1{
-    font-family: 'Nueu-Machina';
     font-size: 34px;
 }
 .header-headlines-container p{

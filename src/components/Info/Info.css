@@ -43,32 +43,33 @@
     
 }
 .save-ukr-text h1{
-    font-family: 'Nueu-Machina';
+    font-family: 'glock';
+    font-size: 40px;
 }
 .save-ukr-text p{
-    font-family: 'Mariupol';
-    font-size: 19px;
+    font-family: 'aktiv';
+    font-size: 18px;
     line-height: 1.4;
     
 }
 .save-ukr-box{
-    font-family: 'Mariupol';
+    font-family: 'aktiv';
     
 }
 .save-ukr-box-one p{
-    max-width: 140px;
+    max-width: 144px;
     margin-top: -7px;
     line-height: 1.2;
 }
 .save-ukr-box-one h1{
     font-size: 20px;
-    font-family: 'Nueu-Machina';
+    font-family: 'glock';
 }
 .left-box{
     margin-left: 50px;
 }
 .middle-box{
-    margin-top: -6.8px;
+    margin-top: -6px;
 }
 .right-box{
     margin-top: -6.8px;
