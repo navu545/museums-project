@@ -10,6 +10,7 @@ import BankInformation from "./pages/BankPage/bank-information";
 import TestimonyPage from "./pages/TestimonyPage/TestimonyPage";
 import TestimonyDetailPage from "./pages/TestimonyDetailPage/TestimonyDetailPage";
 import MuseumsListPage from "./pages/MuseumsListPage/MuseumsListPage";
+import ManifestoPage from "./pages/ManifestoPage/ManifestoPage";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/TestimonyPage" element={<TestimonyPage />} />
         <Route path="/TestimonyDetailPage" element={<TestimonyDetailPage />} />
         <Route path="/MuseumsListPage" element={<MuseumsListPage />} />
+        <Route path="/ManifestoPage" element={<ManifestoPage/>} />
       </Routes>
     </Router>
   );

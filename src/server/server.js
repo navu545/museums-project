@@ -19,7 +19,7 @@ app.get("/api/data/two", (req, res) => {
 
 app.post("/api/data", async (req, res) => {
   const receivedData = req.body;
-  const { name, email, message, id} = receivedData;
+  const { name, email, message, subject, id} = receivedData;
   console.log("Received sponsor data from frontend:", receivedData);
 
   try {
@@ -41,7 +41,7 @@ app.post("/api/data", async (req, res) => {
       },
       to: ["navu545@gmail.com"],
       subject: "New Sponsor Received",
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}\nID: ${id}\n`,
+      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}\nSubject: ${subject}\nID: ${id}\n`,
 
     };
 

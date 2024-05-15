@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import MuseumsListHolder from "../../components/MuseumsListHolder/MuseumsListHolder";
 import Process from "../../components/Process/Process";
@@ -6,9 +6,18 @@ import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 import "./MuseumsListPage.css";
 const MuseumsListPage = () => {
+  
+    
+    const scrollToTop = useRef(null);
+
+    const toggleScroll = () => {
+      scrollToTop.current?.scrollIntoView({ behavior: "smooth" });
+    }
+      
+    
   return (
     <div className="museums-list-page-container">
-      <Navbar />
+      <Navbar scrollTo={scrollToTop}/>
       <div className="museums-list-spacing-1"></div>
       <MuseumsListHolder />
       <div className="museums-list-spacing-2"></div>
@@ -20,7 +29,7 @@ const MuseumsListPage = () => {
         <Form />
       </div>
       <div className="museums-list-spacing-4"></div>
-      <Footer />
+      <Footer toggleScroll={toggleScroll} />
     </div>
   );
 };

@@ -23,7 +23,7 @@
     margin-right: auto;
 }
 .navbar-logo{
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 
@@ -31,7 +31,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'mariupol';
+    font-family: 'aktiv';
+    font-size: 16px;
     
 }
 .navbar-links-btn a{
@@ -59,11 +60,13 @@
     border-radius: 20px;
     min-width: 144px;
     height: 32px;
-    font-family: 'mariupol';
+    font-family: 'glockreg';
     border: 0px;
+    font-size: 10px ;
 }
 .navbar-btn:hover{
     background-color: darkgray;
+    cursor: pointer;
 }
 
 .navbar-contact-btn{
@@ -97,21 +100,19 @@
 
 }
 .open-menu{
-    font-family: 'mariupol';
+    font-family: 'glock';
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     padding-bottom: 20px;
+    font-size: 12px;
 }
 .open-menu a{
     color: inherit;
 }
-.open-menu button{
-    font-weight: bold;
-    
-}
+
 .menu-btn-spacing{
     height: 10px;
 }
@@ -128,4 +129,14 @@
     .open-menu {
         display: none;
     }
+}
+@media (max-width: 475px) {
+    .open-menu{
+    margin-left: -45%;
+    align-items: flex-start;
+}
+    .open-menu button{
+        margin-left: -8px;
+    }
+
 }

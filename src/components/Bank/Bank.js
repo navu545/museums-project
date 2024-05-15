@@ -15,7 +15,7 @@ const Bank = () => {
       <div className="Bank-info-wrapper">
         <div className="Bank-info-container">
           <div className="Bank-info-headline">
-            <h1>Bank information</h1>
+            <h1>Sponsor a museum</h1>
           </div>
           <div className="QR-container">
             <div className="clover-QR">
@@ -39,7 +39,7 @@ const Bank = () => {
                   <img src={PayPal} alt=""></img>
                 </div>
                 <p>Payment of donations directly to the PayPal account.</p>
-                <Link to="https://paypal.com">
+                <Link to="https://paypal.com/qrcodes/managed/9a084d4b-a535-4f6e-869b-d0329c36a2f6?utm_source=payandgetpaid" target="_blank" rel="noreferrer">
                   <img src={paypalTwo} alt=""></img>
                 </Link>
               </div>

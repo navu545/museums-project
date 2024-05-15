@@ -1,8 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { HeaderImageStraight, HeaderImageTilt } from "../../assets/images";
 import "./Header.css";
 
-const Header = ({toggleScroll}) => {
+const Header = () => {
   return (
     <>
       <div className="header-border-wrapper">
@@ -13,9 +14,9 @@ const Header = ({toggleScroll}) => {
               We protect and preserve Ukrainian cultural heritage from
               destruction by Russian invaders.
             </p>
-            <button className="header-btn" onClick={toggleScroll}>
-              Sponsor museum
-            </button>
+            <Link to="/bank-information">
+              <button className="header-btn">Donate to Skrynia</button>
+            </Link>
           </div>
           <div className="header-imgs-container">
             <img src={HeaderImageTilt} alt="ladyArt" className="tilt-img"></img>

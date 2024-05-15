@@ -46,8 +46,33 @@ import museumcolored from "./coloredmuseum.png";
 import thankYou from "./ThankYou.png";
 import previousImage from "./previousImage.png";
 import paypalTwo from "./PayPalTwo.png";
-
+import ShadowLogo from "./ShadowsLogo.png";
+import Helmet from "./Helmet.png";
+import holdomor from "./holdomor.png";
+import kherson from "./kherson.png";
+import maksrym from "./maksrym.png";
+import MuseumKyiv from "./MuseumKyiv.png";
+import MusuemLviv from "./MuseumLviv.png";
+import repin from "./repin.png";
+import TheatreMusic from "./TheatreMusicCinema.png";
+import linkdin from "./linkdin.svg";
+import comingsoon from "./comingsoon.png";
+import image2x from "./Image2x.png";
+import logonew from "./LogoNew.svg";
 export {
+  logonew,
+  image2x,
+  comingsoon,
+  linkdin,
+  TheatreMusic,
+  repin,
+  MusuemLviv,
+  MuseumKyiv,
+  maksrym,
+  kherson,
+  holdomor,
+  Helmet,
+  ShadowLogo,
   paypalTwo,
   previousImage,
   thankYou,

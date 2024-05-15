@@ -47,9 +47,9 @@ const Home = () => {
 
       <Process />
       <div className="component-spacing-6"></div>
-
+{/* 
       <About />
-      <div className="component-spacing-7"></div>
+      <div className="component-spacing-7"></div> */}
 
       <Art />
       <div className="component-spacing-8"></div>

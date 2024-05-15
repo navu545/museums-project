@@ -1,5 +1,5 @@
 import {React,useState} from "react";
-import { NavbarShadowProject } from "../../assets/images";
+import { logonew } from "../../assets/images";
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ const Navbar = ({toggleScroll,scrollTo}) => {
           <div className="navbar-logo-container">
             <div className="navbar-logo">
               <Link to="/">
-                <img src={NavbarShadowProject} alt="navbar-logo"></img>
+                <img src={logonew} alt="navbar-logo"></img>
               </Link>
             </div>
           </div>
@@ -33,18 +33,25 @@ const Navbar = ({toggleScroll,scrollTo}) => {
             <Link to="/MuseumsListPage">
               <p className="msm-lst-link">List of Museums</p>
             </Link>
-            <Link to="/TestimonyPage">
+            {/* <Link to="/TestimonyPage">
               <p className="test-page-link">Testimonies</p>
-            </Link>
+            </Link> */}
 
-            <button className="navbar-contact-btn" onClick={toggleScroll}>
+            {/* <button className="navbar-contact-btn" onClick={toggleScroll}>
               <p>Contacts</p>
-            </button>
-            <Link to="/bank-information">
+            </button> */}
+
+            {/* <Link to="/bank-information">
               <p className="bank-info-lnk">Bank Information</p>
+            </Link> */}
+
+            <Link to="/ManifestoPage">
+              <p className="Manifesto-link">Manifesto</p>
             </Link>
 
-            <button className="navbar-btn">Sponsor museum</button>
+            <Link to="/bank-information">
+              <button className="navbar-btn">Donate to Skrynia</button>
+            </Link>
           </div>
         </div>
 
@@ -53,17 +60,19 @@ const Navbar = ({toggleScroll,scrollTo}) => {
             <Link to="/MuseumsListPage">
               <p className="msm-lst-link">List of Museums</p>
             </Link>
-            <Link to="/TestimonyPage">
-              <p className="test-page-link">Testimonies</p>
+            <Link to="/ManifestoPage">
+              <p className="test-page-link">Manifesto</p>
             </Link>
-            <button className="navbar-contact-btn" onClick={toggleScroll}>
+            {/* <button className="navbar-contact-btn" onClick={toggleScroll}>
               <p>Contacts</p>
-            </button>
-            <Link to="/bank-information">
+            </button> */}
+            {/* <Link to="/bank-information">
               <p className="bank-info-lnk">Bank Information</p>
-            </Link>
+            </Link> */}
             <div className="menu-btn-spacing"></div>
-            <button className="navbar-btn">Sponsor museum</button>
+            <Link to="/bank-information">
+              <button className="navbar-btn">Donate to Skrynia</button>
+            </Link>
           </div>
         )}
       </div>

@@ -1,35 +1,26 @@
 import { useState, React, useEffect } from "react";
 import { arrowselectright, arrowselectleft } from "../../assets/images";
 import MuseumCard from "../MuseumCard/MuseumCard";
+import MuseumCardOne from "../MuseumCard/MuseumCardOne";
+import MuseumCardTwo from "../MuseumCard/MuseumCardTwo";
+import MuseumCardThree from "../MuseumCard/MuseumCardThree";
+import MuseumCardFour from "../MuseumCard/MuseumCardFour";
+import MuseumCardFive from "../MuseumCard/MuseumCardFive";
+import MuseumCardSix from "../MuseumCard/MuseumCardSix";
+import MuseumCardSeven from "../MuseumCard/MuseumCardSeven";
 import MuseumCardColored from "../MuseumCard/MuseumCardColored";
 import "./MuseumsListHolder.css";
 
 const cardsArray = [
+  <MuseumCardOne />,
+  <MuseumCardTwo />,
+  <MuseumCardThree />,
+  <MuseumCardFour />,
+  <MuseumCardFive />,
+  <MuseumCardSix />,
+  <MuseumCardSeven />,
   <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCard />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
-  <MuseumCardColored />,
+
 ];
 
 const MuseumsListHolder = () => {

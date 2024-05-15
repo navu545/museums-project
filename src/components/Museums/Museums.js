@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { listSuppliesOpen } from "../../assets/images";
 import MuseumCard from "../MuseumCard/MuseumCard";
+import MuseumCardOne from '../MuseumCard/MuseumCardOne';
+import MuseumCardTwo from '../MuseumCard/MuseumCardTwo';
+import MuseumCardThree from '../MuseumCard/MuseumCardThree';
+import MuseumCardFour from '../MuseumCard/MuseumCardFour';
 import "./Museums.css";
 
 const Museums = () => {
@@ -11,16 +15,16 @@ const Museums = () => {
         <h1 className="Museums-headline">Museums we are working with</h1>
 
         <div className="Museums-cards-holder">
-          <MuseumCard />
+          <MuseumCardOne />
           <div className="museum-card-spacing-main"></div>
-          <MuseumCard />
+          <MuseumCardTwo />
           <div className="museum-card-spacing-main"></div>
-          <MuseumCard />
+          <MuseumCardThree />
           <div className="museum-card-spacing-main"></div>
-          <MuseumCard />
+          <MuseumCardFour />
         </div>
         <div className="museums-btn-container">
-          <Link to="/MuseumsListPage">
+          {/* <Link to="/MuseumsListPage">
             <button className="museums-btn-one">
               List of supplies
               <img
@@ -29,7 +33,7 @@ const Museums = () => {
                 className="museum-btn-img"
               />
             </button>
-          </Link>
+          </Link> */}
           <Link to="/MuseumsListPage">
             <button className="museums-btn-two">List of museums</button>
           </Link>

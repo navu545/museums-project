@@ -10,6 +10,7 @@ const Form = ({scrollTo}) => {
   const [spnsrMuseumForm, setSpnsrMuseumForm] = useState({
     name: "",
     email: "",
+    subject: "",
     message: "",
   });
   const [requestAssistanceForm, setRequestAssistanceForm] = useState({
@@ -59,6 +60,7 @@ const Form = ({scrollTo}) => {
     if (
       spnsrMuseumForm.name &&
       spnsrMuseumForm.email &&
+      spnsrMuseumForm.subject &&
       spnsrMuseumForm.message
     ) {
       const sendSpnsrFormToBackend = async () => {
@@ -81,6 +83,7 @@ const Form = ({scrollTo}) => {
       setSpnsrMuseumForm({
         name: "",
         email: "",
+        subject: "",
         message: "",
       });
       setThankYou(true);
@@ -156,14 +159,14 @@ const Form = ({scrollTo}) => {
                   className={`spnsr-msm-btn ${isActive ? "active" : ""}`}
                   onClick={() => toggleForm(true)}
                 >
-                  Sponsor a museum
+                  Contact Us
                 </button>
-                <button
+                {/* <button
                   className={`help-btn ${!isActive ? "active" : ""}`}
                   onClick={() => toggleForm(false)}
                 >
                   Request Assistance
-                </button>
+                </button> */}
               </div>
 
               <div className="btn-line"></div>
@@ -186,6 +189,15 @@ const Form = ({scrollTo}) => {
                     name="email"
                     onChange={updateSpnsrForm}
                     autoComplete="email"
+                  ></input>
+                  <input
+                    type="text"
+                    placeholder="Subject: General Inquiry / Museum Support"
+                    className="input-field-email"
+                    value={spnsrMuseumForm.subject}
+                    name="subject"
+                    onChange={updateSpnsrForm}
+                    autoComplete="subject"
                   ></input>
                   <textarea
                     type="text"

@@ -15,8 +15,9 @@
     width: 252px;
     height: 98px;
     margin-left: 16px;
-    font-family: 'Mariupol';
+    font-family: 'aktiv';
     margin-top: 20px;
+    font-size: 12px;
 }
 .museum-card-img{
     width: 116%;
@@ -26,8 +27,9 @@
     
 }
 .museum-card-headline{
+    font-family: 'glock';
     font-weight: bold;
-    font-size: 17px;
+    font-size: 14px;
 }
 .museum-card-para{
     margin-top: -7px;
@@ -35,5 +37,13 @@
     color:grey;
 }
 .lviv-span{
-    font-weight: lighter;
+    font-family: 'aktiv' ;
+    font-size: 17px;
+    
+}
+.coming-soon{
+    position: absolute;
+    max-width:172px ;
+    margin-left: 112px;
+    margin-top: -209px;
 }
