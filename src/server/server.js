@@ -41,8 +41,7 @@ app.post("/api/data", async (req, res) => {
       },
       to: ["navu545@gmail.com"],
       subject: "New Sponsor Received",
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}\nSubject: ${subject}\nID: ${id}\n`,
-
+      text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}\nID: ${id}\n`,
     };
 
     await transporter.sendMail(mailOptions); 
