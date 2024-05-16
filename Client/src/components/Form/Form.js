@@ -66,7 +66,7 @@ const Form = ({scrollTo}) => {
       const sendSpnsrFormToBackend = async () => {
         try {
           const response = await axios.post(
-            "http://localhost:3001/api/data",
+            "https://shadows-project.onrender.com/api/data",
             spnsrMuseumForm
           );
           if (response.status === 200) {
@@ -106,7 +106,7 @@ const Form = ({scrollTo}) => {
       const sendRequestFormToBackend = async () => {
         try {
           const response = await axios.post(
-            "http://localhost:3001/api/data/two",
+            "https://shadows-project.onrender.com/api/data/two",
             requestAssistanceForm
           );
           if (response.status === 200) {
