@@ -75,7 +75,7 @@ app.post("/api/data/two", async (req, res) => {
         name: "nav",
         address: process.env.SMTP_USER,
       },
-      to: ["navu545@gmail.com"],
+      to: ["navu5454@gmail.com"],
       subject: "New Request Received",
       text: `Name: ${name}\nEmail: ${email}\nRequest: ${request}\nID: ${id}\n`,
     };
