@@ -4,7 +4,6 @@ import Header from "../../components/Header/Header";
 import Info from "../../components/Info/Info";
 import Museum from "../../components/Museums/Museums";
 import Process from "../../components/Process/Process";
-import About from "../../components/About/About";
 import Art from "../../components/Art/Art";
 import Form from "../../components/Form/Form";
 import Contacts from "../../components/Contacts/Contacts";
