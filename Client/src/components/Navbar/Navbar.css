@@ -113,6 +113,12 @@
 .menu-btn-spacing{
     height: 0px;
 }
+.msm-lst-link{
+    margin-bottom:20px;
+}
+.test-page-link{
+    margin-bottom: 20px;
+}
 @media (max-width: 921px) {
     .menu{
         display: flex;
