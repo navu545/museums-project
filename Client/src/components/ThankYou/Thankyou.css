@@ -6,7 +6,7 @@
     height: 447px;
     width: 500px;
     background-color:  rgb(120, 126, 128);
-    margin-left: 175px;
+    
     border-radius: 20px;
     z-index:2;
     animation: backgroundAnimation 5s infinite alternate;
@@ -21,7 +21,7 @@
     font-size: 17px;
     margin-top: 5px;
     margin-bottom: 30px;
-    width: 400px;
+    max-width: 400px;
 }
 .thank-you-button{
     font-family: 'Mariupol';
@@ -34,3 +34,7 @@
     cursor: pointer;
 }
 
+@media (min-width: 1142px) {
+    .thank-you-container{
+    margin-left: 175px;
+}}
