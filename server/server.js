@@ -39,7 +39,7 @@ app.post("/api/data", async (req, res) => {
         name: "nav",
         address: process.env.SMTP_USER,
       },
-      to: ["navu545@gmail.com"],
+      to: ["navu5454@gmail.com"],
       subject: "New Sponsor Received",
       text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}\nID: ${id}\n`,
     };
