@@ -15,7 +15,7 @@ const ManifestoPage = () => {
     const toggleScroll = () => {
       
       scrollToSponsor.current?.scrollIntoView({ behavior: "smooth" });
-      scrollToTop.current?.scrollIntoView({ behavior: "smooth" });
+      
 
       
     };
