@@ -39,7 +39,7 @@ app.post("/api/data", async (req, res) => {
         name: "nav",
         address: process.env.SMTP_USER,
       },
-      to: ["navu5454@gmail.com"],
+      to: ["shadows.ukraine@gmail.com"],
       subject: "New Sponsor Received",
       text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}\nID: ${id}\n`,
     };
@@ -75,7 +75,7 @@ app.post("/api/data/two", async (req, res) => {
         name: "nav",
         address: process.env.SMTP_USER,
       },
-      to: ["navu5454@gmail.com"],
+      to: ["shadows.ukraine@gmail.com"],
       subject: "New Request Received",
       text: `Name: ${name}\nEmail: ${email}\nRequest: ${request}\nID: ${id}\n`,
     };
