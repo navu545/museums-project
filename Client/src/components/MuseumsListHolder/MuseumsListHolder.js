@@ -8,7 +8,6 @@ import MuseumCardFour from "../MuseumCard/MuseumCardFour";
 import MuseumCardFive from "../MuseumCard/MuseumCardFive";
 import MuseumCardSix from "../MuseumCard/MuseumCardSix";
 import MuseumCardSeven from "../MuseumCard/MuseumCardSeven";
-import MuseumCardColored from "../MuseumCard/MuseumCardColored";
 import "./MuseumsListHolder.css";
 
 const cardsArray = [

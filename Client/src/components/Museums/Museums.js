@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { listSuppliesOpen } from "../../assets/images";
-import MuseumCard from "../MuseumCard/MuseumCard";
 import MuseumCardOne from '../MuseumCard/MuseumCardOne';
 import MuseumCardTwo from '../MuseumCard/MuseumCardTwo';
 import MuseumCardThree from '../MuseumCard/MuseumCardThree';
