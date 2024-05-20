@@ -106,7 +106,7 @@ const Form = ({scrollTo}) => {
       const sendRequestFormToBackend = async () => {
         try {
           const response = await axios.post(
-            "https://shadows-project.onrender.com/api/data/two",
+            "https://museums-project.onrender.com/api/data/two",
             requestAssistanceForm
           );
           if (response.status === 200) {
