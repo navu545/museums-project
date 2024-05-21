@@ -1,4 +1,9 @@
 body{
     margin: 0;
-    zoom: 75%
+    
+}
+@media (min-width: 1029px) {
+    body{
+        zoom:75%;
+    }
 }

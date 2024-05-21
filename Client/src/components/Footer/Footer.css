@@ -58,7 +58,7 @@
     cursor: pointer;
     display: none;
 }
-@media (max-width: 475px) {
+@media (max-width: 550px) {
     .footer-para-div{
         display: none;
     }
