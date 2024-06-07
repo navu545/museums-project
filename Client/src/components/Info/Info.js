@@ -8,7 +8,10 @@ const Info = () => {
       <div className="save-ukr-wrapper">
         <div className="save-ukr-container">
           <div className="save-ukr-img">
-            <img  src={SaveUkranianArt} alt="burning-art"></img>
+            <img
+              src="https://ik.imagekit.io/shadows/Shadows-project/SaveUkranianArt.png"
+              alt="burning-art"
+            ></img>
           </div>
           <div className="save-ukr-text-box">
             <div className="save-ukr-text">

@@ -20,14 +20,12 @@ const Header = () => {
           </div>
           <div className="header-imgs-container">
             <img
-              
-              src={HeaderImageTilt}
+              src="https://ik.imagekit.io/shadows/Shadows-project/HeaderImageTilt.png"
               alt="ladyArt"
               className="tilt-img"
             ></img>
             <img
-              
-              src={HeaderImageStraight}
+              src="https://ik.imagekit.io/shadows/Shadows-project/HeaderImageStraight.png"
               alt="flowerArt"
               className="str-img"
             ></img>

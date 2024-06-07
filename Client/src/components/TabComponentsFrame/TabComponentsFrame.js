@@ -14,7 +14,10 @@ const TabComponentsFrame = () => {
       <div className="content-container-wrapper">
         <div className={`content-container ${expanded ? "expanded" : ""}`}>
           <div className={`microphone-container ${expanded ? "expanded" : ""}`}>
-            <img  src={Microphone} alt="microphone"></img>
+            <img
+              src="https://ik.imagekit.io/shadows/Shadows-project/Microphone.png"
+              alt="microphone"
+            ></img>
           </div>
           <div className={`tab-component-text ${expanded ? "expanded" : ""}`}>
             {!expanded && (

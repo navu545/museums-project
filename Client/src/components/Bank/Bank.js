@@ -20,23 +20,29 @@ const Bank = () => {
           <div className="QR-container">
             <div className="clover-QR">
               <div className="clover-qr-img">
-                <img  src={CloverQR} alt=""></img>
+                <img
+                  src="https://ik.imagekit.io/shadows/Shadows-project/CloverQR.png"
+                  alt=""
+                ></img>
               </div>
               <div className="clover-info">
                 <div className="bank-clover">
-                  <img  src={BankClover} alt=""></img>
+                  <img src={BankClover} alt=""></img>
                 </div>
                 <p>Support our project by donating via QR-code.</p>
               </div>
             </div>
             <div className="PayPal-QR">
               <div className="paypal-qr-img">
-                <img  src={PayPalQR} alt=""></img>
+                <img
+                  src="https://ik.imagekit.io/shadows/Shadows-project/PaypalQR.png"
+                  alt=""
+                ></img>
               </div>
 
               <div className="paypal-info">
                 <div className="paypal-one">
-                  <img  src={PayPal} alt=""></img>
+                  <img src={PayPal} alt=""></img>
                 </div>
                 <p>Payment of donations directly to the PayPal account.</p>
                 <Link
@@ -44,7 +50,7 @@ const Bank = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img  src={paypalTwo} alt=""></img>
+                  <img src={paypalTwo} alt=""></img>
                 </Link>
               </div>
             </div>
