@@ -140,15 +140,13 @@ const Form = ({scrollTo}) => {
         <div className="form-container">
           <div className="tape-container">
             <img
-              
               className="tape-down"
-              src={YellowTape2}
+              src="https://ik.imagekit.io/shadows/Shadows-project/YellowTape2.png"
               alt="downward-tape"
             ></img>
             <img
-              
               className="tape-up"
-              src={YellowTape1}
+              src="https://ik.imagekit.io/shadows/Shadows-project/YellowTape1.png"
               alt="upward-tape"
             ></img>
           </div>

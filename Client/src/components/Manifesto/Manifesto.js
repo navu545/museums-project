@@ -30,7 +30,10 @@ const Manifesto = ({toggleScroll}) => {
             </p>
           </div>
           <div className="Manifesto-image">
-            <img src={Helmet} alt=""></img>
+            <img
+              src="https://ik.imagekit.io/shadows/Shadows-project/Helmet.png"
+              alt=""
+            ></img>
           </div>
         </div>
         <div className="section-two">

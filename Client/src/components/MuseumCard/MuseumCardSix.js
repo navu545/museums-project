@@ -7,8 +7,7 @@ const MuseumCardSix = () => {
     <div className="museum-card">
       <div className="museum-card-img-div">
         <img
-          
-          src={maksrym}
+          src="https://ik.imagekit.io/shadows/Shadows-project/maksrym.png"
           alt="museum-bw"
           className="museum-card-img"
         ></img>
