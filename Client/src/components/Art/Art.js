@@ -21,47 +21,47 @@ const Art = () => {
         <div className="slider-container">
           <div className="slider-imgs">
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider1} alt=""></img>
+              <img  src={Slider1} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider2} alt=""></img>
+              <img  src={Slider2} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider3} alt=""></img>
+              <img  src={Slider3} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider4} alt=""></img>
+              <img  src={Slider4} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider5} alt=""></img>
+              <img  src={Slider5} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider6} alt=""></img>
+              <img  src={Slider6} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider7} alt=""></img>
+              <img  src={Slider7} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider8} alt=""></img>
+              <img  src={Slider8} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider9} alt=""></img>
+              <img  src={Slider9} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider10} alt=""></img>
+              <img  src={Slider10} alt=""></img>
             </div>
 
             <div className="slider-imgs-container">
-              <img loading="lazy" src={Slider11} alt=""></img>
+              <img  src={Slider11} alt=""></img>
             </div>
           </div>
         </div>

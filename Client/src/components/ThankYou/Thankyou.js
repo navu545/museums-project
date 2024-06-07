@@ -7,7 +7,7 @@ const ThankYou = (props) => {
     <>
       <div className="thank-you-container">
         <img
-          loading="lazy"
+          
           className="thank-you-img"
           src={thankYou}
           alt="tick-mark"

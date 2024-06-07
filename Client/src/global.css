@@ -1,57 +1,58 @@
 
 @font-face {
   font-family: 'Nueu-Machina';
-  src: url('../src/assets/fonts/NeuaMachina/NeueMachina-Ultrabold.otf') format('opentype');
+  src: url('../src/assets/fonts/NeuaMachina/NeueMachina-Ultrabold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Mariupol';
-  src: url('../src/assets/fonts/NeuaMachina/Mariupol-Regular.otf') format('opentype');
+  src: url('../src/assets/fonts/NeuaMachina/Mariupol-Regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url('../src/assets/fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+  src: url('../src/assets/fonts/OpenSans/OpenSans-SemiBold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url('../src/assets/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+  src: url('../src/assets/fonts/OpenSans/OpenSans-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'montserrat';
-  src: url('../src/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  src: url('../src/assets/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'glock';
-  src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Black.otf') format('opentype');
+  src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Black.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'glockreg';
-  src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Regular.otf') format('opentype');
+  src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'glockmed';
-  src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Medium.otf') format('opentype');
+  src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Medium.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'aktiv';
-  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Regular.ttf') format('truetype');
+  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'aktiv-light';
-  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Light.ttf') format('truetype');
+  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Light.woff2') format('woff2');
 }
 @font-face {
   font-family: 'aktiv-med';
-  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Medium.ttf') format('truetype');
+  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Medium.woff2') format('woff2');
 }
 @font-face {
   font-family: 'aktiv-bold';
-  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Bold.ttf') format('truetype');
+  src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Bold.woff2') format('woff2');
 }
+
 
 
 

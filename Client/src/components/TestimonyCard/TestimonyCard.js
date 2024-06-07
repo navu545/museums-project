@@ -20,7 +20,7 @@ const TestimonyCard = (props) => {
         <div className="testimony-img-btn">
           <div className="testimony-card-img">
             <img
-              loading="lazy"
+              
               src={props.testimonyCardImage}
               alt="msm-test"
             ></img>
@@ -28,7 +28,7 @@ const TestimonyCard = (props) => {
           <button className="testimony-card-button" onClick={togglePreview}>
             {props.previewImages.length} photos
             <img
-              loading="lazy"
+              
               className="testimony-btn-img"
               src={moreimages}
               alt="popup-img"

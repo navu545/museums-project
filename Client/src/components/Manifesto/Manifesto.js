@@ -30,7 +30,7 @@ const Manifesto = ({toggleScroll}) => {
             </p>
           </div>
           <div className="Manifesto-image">
-            <img loading="lazy" src={Helmet} alt=""></img>
+            <img src={Helmet} alt=""></img>
           </div>
         </div>
         <div className="section-two">

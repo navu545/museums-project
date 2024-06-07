@@ -8,7 +8,7 @@ const Info = () => {
       <div className="save-ukr-wrapper">
         <div className="save-ukr-container">
           <div className="save-ukr-img">
-            <img loading="lazy" src={SaveUkranianArt} alt="burning-art"></img>
+            <img  src={SaveUkranianArt} alt="burning-art"></img>
           </div>
           <div className="save-ukr-text-box">
             <div className="save-ukr-text">
