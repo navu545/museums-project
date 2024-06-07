@@ -1,5 +1,5 @@
 import {React,useState} from "react";
-import { logonew } from "../../assets/images";
+// import { logonew } from "../../assets/images";
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 
@@ -16,7 +16,10 @@ const Navbar = ({toggleScroll,scrollTo}) => {
           <div className="navbar-logo-container">
             <div className="navbar-logo">
               <Link to="/">
-                <img src={logonew} alt="navbar-logo"></img>
+                <img
+                  src="https://ik.imagekit.io/shadows/Shadows-project/LogoNew.svg"
+                  alt="navbar-logo"
+                ></img>
               </Link>
             </div>
           </div>
