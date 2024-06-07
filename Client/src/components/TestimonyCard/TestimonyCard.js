@@ -19,11 +19,16 @@ const TestimonyCard = (props) => {
       <div className="testimony-card-container">
         <div className="testimony-img-btn">
           <div className="testimony-card-img">
-            <img src={props.testimonyCardImage} alt="msm-test"></img>
+            <img
+              loading="lazy"
+              src={props.testimonyCardImage}
+              alt="msm-test"
+            ></img>
           </div>
           <button className="testimony-card-button" onClick={togglePreview}>
             {props.previewImages.length} photos
             <img
+              loading="lazy"
               className="testimony-btn-img"
               src={moreimages}
               alt="popup-img"

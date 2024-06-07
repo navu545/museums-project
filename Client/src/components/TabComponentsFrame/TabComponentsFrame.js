@@ -12,23 +12,21 @@ const TabComponentsFrame = () => {
   return (
     <>
       <div className="content-container-wrapper">
-        <div className={`content-container ${expanded? 'expanded':""}`}>
-          <div className={`microphone-container ${expanded? 'expanded':""}`}>
-            <img src={Microphone} alt="microphone"></img>
+        <div className={`content-container ${expanded ? "expanded" : ""}`}>
+          <div className={`microphone-container ${expanded ? "expanded" : ""}`}>
+            <img loading="lazy" src={Microphone} alt="microphone"></img>
           </div>
           <div className={`tab-component-text ${expanded ? "expanded" : ""}`}>
             {!expanded && (
-              
               <p className="content">
-                On February 24th, russia launched an unprovoked, brutal
-                war on Ukraine. Since the beginning of the
-                invasion, the Russian bombs have not spared anyone — we’ve seen
-                hospitals, residential buildings, schools...{" "}
+                On February 24th, russia launched an unprovoked, brutal war on
+                Ukraine. Since the beginning of the invasion, the Russian bombs
+                have not spared anyone — we’ve seen hospitals, residential
+                buildings, schools...{" "}
                 <span className="tab-component-span" onClick={toggleExpansion}>
                   read more
                 </span>
               </p>
-              
             )}
             {expanded && (
               <p className="content-expanded">

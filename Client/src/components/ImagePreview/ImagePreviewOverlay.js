@@ -50,12 +50,14 @@ const ImagePreviewOverlay = (props) => {
             onClick={previousPreviewImage}
           >
             <img
+              loading="lazy"
               className="previous-img-img"
               src={previousImage}
               alt="prev-img"
             ></img>
           </button>
           <img
+            loading="lazy"
             className="preview-images"
             src={overlayImageState}
             alt="preview-pic"
@@ -65,6 +67,7 @@ const ImagePreviewOverlay = (props) => {
             onClick={nextPreviewImage}
           >
             <img
+              loading="lazy"
               className="next-img-img"
               src={previousImage}
               alt="prev-img"

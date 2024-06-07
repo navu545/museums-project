@@ -16,7 +16,7 @@ const Navbar = ({toggleScroll,scrollTo}) => {
           <div className="navbar-logo-container">
             <div className="navbar-logo">
               <Link to="/">
-                <img src={logonew} alt="navbar-logo"></img>
+                <img loading="lazy" src={logonew} alt="navbar-logo"></img>
               </Link>
             </div>
           </div>

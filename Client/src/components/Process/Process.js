@@ -12,19 +12,19 @@ const Process = () => {
           </div>
           <div className="process-steps-container">
             <div className="image-text-container">
-              <img src={howitworks1} alt="egg-shape"></img>
+              <img loading="lazy" src={howitworks1} alt="egg-shape"></img>
               <p className="overlay-text">1</p>
               <p className="steps">Fill out the form below</p>
             </div>
             <div className="image-text-container">
-              <img src={howitworks2} alt="triangle"></img>
+              <img loading="lazy" src={howitworks2} alt="triangle"></img>
               <p className="overlay-text">2</p>
               <p className="steps">
                 Indicate whether you need help or want to provide help yourself
               </p>
             </div>
             <div className="image-text-container">
-              <img src={howitworks3} alt="square"></img>
+              <img loading="lazy" src={howitworks3} alt="square"></img>
               <p className="overlay-text">3</p>
               <p className="steps">Wait for an answer from our team</p>
             </div>

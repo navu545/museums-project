@@ -136,7 +136,7 @@ const MuseumsListHolder = () => {
               className={`left-msm-btn ${startPage ? "final" : ""}`}
               onClick={previousArray}
             >
-              <img src={arrowselectleft} alt="left-arrow"></img>
+              <img loading="lazy" src={arrowselectleft} alt="left-arrow"></img>
             </button>
 
             {indexButtons}
@@ -144,7 +144,11 @@ const MuseumsListHolder = () => {
               className={`right-msm-btn ${endPage ? "final" : ""}`}
               onClick={nextArray}
             >
-              <img src={arrowselectright} alt="right-arrow"></img>
+              <img
+                loading="lazy"
+                src={arrowselectright}
+                alt="right-arrow"
+              ></img>
             </button>
           </div>
         </div>
