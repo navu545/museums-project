@@ -1,5 +1,5 @@
 import React from 'react';
-import {Helmet} from "../../assets/images";
+// import {Helmet} from "../../assets/images";
 import "./Manifesto.css";
 import { Link } from "react-router-dom";
 

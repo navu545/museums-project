@@ -1,17 +1,17 @@
 import React from 'react';
-import {
-  Slider10,
-  Slider1,
-  Slider4,
-  Slider2,
-  Slider3,
-  Slider5,
-  Slider6,
-  Slider7,
-  Slider8,
-  Slider9,
-  Slider11,
-} from "../../assets/images";
+// import {
+//   Slider10,
+//   Slider1,
+//   Slider4,
+//   Slider2,
+//   Slider3,
+//   Slider5,
+//   Slider6,
+//   Slider7,
+//   Slider8,
+//   Slider9,
+//   Slider11,
+// } from "../../assets/images";
 import "./Art.css";
 
 const Art = () => {

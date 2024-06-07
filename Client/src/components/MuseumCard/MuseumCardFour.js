@@ -1,5 +1,5 @@
 import React from "react";
-import { kherson } from "../../assets/images";
+// import { kherson } from "../../assets/images";
 import "./MuseumCard.css";
 
 const MuseumCardFour = () => {

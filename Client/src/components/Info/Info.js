@@ -1,5 +1,5 @@
 import React from "react";
-import { SaveUkranianArt } from "../../assets/images";
+// import { SaveUkranianArt } from "../../assets/images";
 import "./Info.css";
 
 const Info = () => {

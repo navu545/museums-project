@@ -1,5 +1,5 @@
 import React from "react";
-import { repin } from "../../assets/images";
+// import { repin } from "../../assets/images";
 import "./MuseumCard.css";
 
 const MuseumCardThree = () => {

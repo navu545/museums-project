@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { HeaderImageStraight, HeaderImageTilt } from "../../assets/images";
+// import { HeaderImageStraight, HeaderImageTilt } from "../../assets/images";
 import "./Header.css";
 
 const Header = () => {
