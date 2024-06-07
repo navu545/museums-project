@@ -6,11 +6,17 @@ const MuseumCardFour = () => {
   return (
     <div className="museum-card">
       <div className="museum-card-img-div">
-        <img src={kherson} alt="museum-bw" className="museum-card-img"></img>
+        <img
+          loading="lazy"
+          src={kherson}
+          alt="museum-bw"
+          className="museum-card-img"
+        ></img>
       </div>
       <div className="museum-card-text">
         <p className="museum-card-headline">
-          Kherson Regional Art Museum <span className="lviv-span">(Kherson)</span>
+          Kherson Regional Art Museum{" "}
+          <span className="lviv-span">(Kherson)</span>
         </p>
         <p className="museum-card-para">
           Housed more than 14,000 works of art until part of its collection was

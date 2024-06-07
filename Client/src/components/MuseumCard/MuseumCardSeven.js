@@ -7,6 +7,7 @@ const MuseumCardSeven = () => {
     <div className="museum-card">
       <div className="museum-card-img-div">
         <img
+          loading="lazy"
           src={TheatreMusic}
           alt="museum-bw"
           className="museum-card-img"

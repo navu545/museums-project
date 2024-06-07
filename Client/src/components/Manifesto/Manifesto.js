@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 const Manifesto = ({toggleScroll}) => {
   return (
     <div className="Manifesto-wrapper">
-      
       <div className="Manifesto-container">
         <div className="section-one">
           <div className="Manifesto-headlines">
@@ -31,7 +30,7 @@ const Manifesto = ({toggleScroll}) => {
             </p>
           </div>
           <div className="Manifesto-image">
-            <img src={Helmet} alt=""></img>
+            <img loading="lazy" src={Helmet} alt=""></img>
           </div>
         </div>
         <div className="section-two">
@@ -64,7 +63,6 @@ const Manifesto = ({toggleScroll}) => {
           </Link>
         </div>
       </div>
-      
     </div>
   );
 }

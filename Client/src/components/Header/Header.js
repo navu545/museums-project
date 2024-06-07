@@ -19,8 +19,14 @@ const Header = () => {
             </Link>
           </div>
           <div className="header-imgs-container">
-            <img src={HeaderImageTilt} alt="ladyArt" className="tilt-img"></img>
             <img
+              loading="lazy"
+              src={HeaderImageTilt}
+              alt="ladyArt"
+              className="tilt-img"
+            ></img>
+            <img
+              loading="lazy"
               src={HeaderImageStraight}
               alt="flowerArt"
               className="str-img"

@@ -21,6 +21,7 @@ const Contacts = ({scrollTo}) => {
               <button className="contacts-insta-button">
                 <div className="contacts-insta-img-container">
                   <img
+                    loading="lazy"
                     className="contacts-insta-img"
                     src={instagram}
                     alt="insta-logo"
@@ -37,6 +38,7 @@ const Contacts = ({scrollTo}) => {
               <button className="contacts-twitter-button">
                 <div className="contacts-twitter-img-container">
                   <img
+                    loading="lazy"
                     className="contacts-twitter-img"
                     src={linkdin}
                     alt="Twitter-logo"

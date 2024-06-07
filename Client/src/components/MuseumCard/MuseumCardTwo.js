@@ -6,7 +6,12 @@ const MuseumCardTwo = () => {
   return (
     <div className="museum-card">
       <div className="museum-card-img-div">
-        <img src={holdomor} alt="museum-bw" className="museum-card-img"></img>
+        <img
+          loading="lazy"
+          src={holdomor}
+          alt="museum-bw"
+          className="museum-card-img"
+        ></img>
       </div>
       <div className="museum-card-text">
         <p className="museum-card-headline">

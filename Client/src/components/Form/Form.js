@@ -140,11 +140,17 @@ const Form = ({scrollTo}) => {
         <div className="form-container">
           <div className="tape-container">
             <img
+              loading="lazy"
               className="tape-down"
               src={YellowTape2}
               alt="downward-tape"
             ></img>
-            <img className="tape-up" src={YellowTape1} alt="upward-tape"></img>
+            <img
+              loading="lazy"
+              className="tape-up"
+              src={YellowTape1}
+              alt="upward-tape"
+            ></img>
           </div>
           <div className="form-headline-div">
             <h1 className="form-headline">

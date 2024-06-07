@@ -46,21 +46,25 @@ useEffect(() => {
           <div className="testimony-detail-back">
             <Link to="/TestimonyPage">
               <button>
-                <img src={back} alt="back-btn"></img>
+                <img loading="lazy" src={back} alt="back-btn"></img>
                 Back
               </button>
             </Link>
           </div>
           <div className="testimony-detail-img-btn">
             <div className="testimony-detail-imgs">
-              <img src={detailImage} alt="testimony-detail-imgs"></img>
+              <img
+                loading="lazy"
+                src={detailImage}
+                alt="testimony-detail-imgs"
+              ></img>
             </div>
             <div className="testimony-detail-img-toggle">
               <button
                 className={`detail-left-btn ${detailIndex === 0 ? "end" : ""}`}
                 onClick={leftToggle}
               >
-                <img src={leftbutton} alt="left-arrow"></img>
+                <img loading="lazy" src={leftbutton} alt="left-arrow"></img>
               </button>
               <p>
                 {" "}
@@ -72,12 +76,12 @@ useEffect(() => {
                 }`}
                 onClick={rightToggle}
               >
-                <img src={rightbutton} alt="right-arrow"></img>
+                <img loading="lazy" src={rightbutton} alt="right-arrow"></img>
               </button>
             </div>
           </div>
           <div className="testimony-detail-text">
-            <div className='detail-date'>
+            <div className="detail-date">
               <p>14 March 2022</p>
             </div>
 
@@ -133,6 +137,7 @@ useEffect(() => {
             <Link to="https://instagram.com">
               <button>
                 <img
+                  loading="lazy"
                   className="testimony-insta-img"
                   src={instagram}
                   alt="insta-logo"
@@ -142,6 +147,7 @@ useEffect(() => {
             <Link to="https://twitter.com">
               <button>
                 <img
+                  loading="lazy"
                   className="testimony-twitter-img"
                   src={Twitter}
                   alt="Twitter-logo"
