@@ -11,7 +11,7 @@ const Footer = ({toggleScroll}) => {
           <div className="footer-logo">
             <Link to="/" onClick={toggleScroll}>
               <img
-                loading="lazy"
+                
                 src={FooterShadowProject}
                 alt="footer-logo"
               ></img>
@@ -36,7 +36,7 @@ const Footer = ({toggleScroll}) => {
               rel="noreferrer"
             >
               <button className="ftr-insta-btn">
-                <img loading="lazy" src={instagram} alt=""></img>
+                <img  src={instagram} alt=""></img>
               </button>
             </a>
             <a
@@ -45,7 +45,7 @@ const Footer = ({toggleScroll}) => {
               rel="noreferrer"
             >
               <button className="ftr-linkdin-btn">
-                <img loading="lazy" src={linkdin} alt=""></img>
+                <img  src={linkdin} alt=""></img>
               </button>
             </a>
           </div>

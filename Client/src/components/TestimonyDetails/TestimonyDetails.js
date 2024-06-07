@@ -46,7 +46,7 @@ useEffect(() => {
           <div className="testimony-detail-back">
             <Link to="/TestimonyPage">
               <button>
-                <img loading="lazy" src={back} alt="back-btn"></img>
+                <img  src={back} alt="back-btn"></img>
                 Back
               </button>
             </Link>
@@ -54,7 +54,7 @@ useEffect(() => {
           <div className="testimony-detail-img-btn">
             <div className="testimony-detail-imgs">
               <img
-                loading="lazy"
+                
                 src={detailImage}
                 alt="testimony-detail-imgs"
               ></img>
@@ -64,7 +64,7 @@ useEffect(() => {
                 className={`detail-left-btn ${detailIndex === 0 ? "end" : ""}`}
                 onClick={leftToggle}
               >
-                <img loading="lazy" src={leftbutton} alt="left-arrow"></img>
+                <img  src={leftbutton} alt="left-arrow"></img>
               </button>
               <p>
                 {" "}
@@ -76,7 +76,7 @@ useEffect(() => {
                 }`}
                 onClick={rightToggle}
               >
-                <img loading="lazy" src={rightbutton} alt="right-arrow"></img>
+                <img  src={rightbutton} alt="right-arrow"></img>
               </button>
             </div>
           </div>
@@ -137,7 +137,7 @@ useEffect(() => {
             <Link to="https://instagram.com">
               <button>
                 <img
-                  loading="lazy"
+                  
                   className="testimony-insta-img"
                   src={instagram}
                   alt="insta-logo"
@@ -147,7 +147,7 @@ useEffect(() => {
             <Link to="https://twitter.com">
               <button>
                 <img
-                  loading="lazy"
+                  
                   className="testimony-twitter-img"
                   src={Twitter}
                   alt="Twitter-logo"

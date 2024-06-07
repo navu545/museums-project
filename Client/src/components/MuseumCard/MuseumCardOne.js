@@ -7,7 +7,7 @@ const MuseumCardOne = () => {
     <div className="museum-card">
       <div className="museum-card-img-div">
         <img
-          loading="lazy"
+         
           src={MusuemLviv}
           alt="museum-bw"
           className="museum-card-img"

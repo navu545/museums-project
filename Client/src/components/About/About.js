@@ -6,7 +6,7 @@ const About = () => {
     <div className='about-us-wrapper'>
       <div className="about-us-container">
         <div className="about-us-img">
-          <img loading='lazy' src={aboutusnew} alt="about-us-img"></img>
+          <img src={aboutusnew} alt="about-us-img"></img>
         </div>
         <div className="about-us-text">
           <h1>About us</h1>

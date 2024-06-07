@@ -20,13 +20,13 @@ const Header = () => {
           </div>
           <div className="header-imgs-container">
             <img
-              loading="lazy"
+              
               src={HeaderImageTilt}
               alt="ladyArt"
               className="tilt-img"
             ></img>
             <img
-              loading="lazy"
+              
               src={HeaderImageStraight}
               alt="flowerArt"
               className="str-img"

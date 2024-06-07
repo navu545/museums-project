@@ -14,7 +14,7 @@ const TabComponentsFrame = () => {
       <div className="content-container-wrapper">
         <div className={`content-container ${expanded ? "expanded" : ""}`}>
           <div className={`microphone-container ${expanded ? "expanded" : ""}`}>
-            <img loading="lazy" src={Microphone} alt="microphone"></img>
+            <img  src={Microphone} alt="microphone"></img>
           </div>
           <div className={`tab-component-text ${expanded ? "expanded" : ""}`}>
             {!expanded && (

@@ -7,13 +7,13 @@ const MuseumCard = () => {
     <div className="museum-card">
       <div className="museum-card-img-div">
         <img
-          loading="lazy"
+          
           src={image2x}
           alt="museum-bw"
           className="museum-card-img"
         ></img>
         <img
-          loading="lazy"
+          
           src={comingsoon}
           alt="museum-ribbon"
           className="coming-soon"
