@@ -2,8 +2,6 @@ import React from 'react';
 import {
   BankClover,
   PayPal,
-  CloverQR,
-  PayPalQR,
   paypalTwo,
 } from "../../assets/images";
 import "./Bank.css";

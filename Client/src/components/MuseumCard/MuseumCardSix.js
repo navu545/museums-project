@@ -1,5 +1,5 @@
 import React from "react";
-import { maksrym } from "../../assets/images";
+// import { maksrym } from "../../assets/images";
 import "./MuseumCard.css";
 
 const MuseumCardSix = () => {

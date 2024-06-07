@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Microphone } from "../../assets/images";
+// import { Microphone } from "../../assets/images";
 import "./TabComponentsFrame.css";
 
 const TabComponentsFrame = () => {

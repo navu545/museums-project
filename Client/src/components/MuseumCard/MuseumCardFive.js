@@ -1,5 +1,5 @@
 import React from "react";
-import { MuseumKyiv } from "../../assets/images";
+// import { MuseumKyiv } from "../../assets/images";
 import "./MuseumCard.css";
 
 const MuseumCardFive = () => {
