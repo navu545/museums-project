@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'glock';
   src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Black.woff2') format('woff2');
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: 'aktiv';
   src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Regular.woff2') format('woff2');
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: 'montserrat';
   src: url('../src/assets/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2');
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: 'glockreg';
   src: url('../src/assets/fonts/GlockFont/GlockGrotesk-Regular.woff2') format('woff2');
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: 'Mariupol';
   src: url('../src/assets/fonts/NeuaMachina/Mariupol-Regular.woff2') format('woff2');
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: 'OpenSans-Bold';
   src: url('../src/assets/fonts/OpenSans/OpenSans-Bold.woff2') format('woff2');
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: 'aktiv-med';
   src: url('../src/assets/fonts/AktivGrotesk/AktivGroteskCorp-Medium.woff2') format('woff2');
-  font-display: swap;
+  font-display: block;
 }
 
