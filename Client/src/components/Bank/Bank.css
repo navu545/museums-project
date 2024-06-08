@@ -96,23 +96,26 @@
 }
 @media (max-width: 475px) {
   .clover-QR {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
+    text-align: center;
   }
 
   .PayPal-QR {
     margin-left: 5%;
     margin-right: 5%;
+    text-align: center;
   }
   .Bank-info-headline {
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @media (max-width: 355px) {
   .Bank-info-headline {
     
-    font-size: 12px;
+    font-size: 11px;
   }
+  
 }
