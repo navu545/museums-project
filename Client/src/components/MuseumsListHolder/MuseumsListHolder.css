@@ -31,12 +31,12 @@
   
 }
 .musuem-list-headlines h1 {
-  font-family: "Nueu-Machina";
+  font-family: "glock";
   font-size: 40px;
   margin-bottom: 0px;
 }
 .musuem-list-headlines p {
-  font-family: "Mariupol";
+  font-family: "aktiv";
   font-size: 20px;
   max-width: 936px;
   line-height: 1.4;
@@ -144,5 +144,10 @@
   .musuem-list-headlines p {
 
   text-align: center;
+}
+}
+@media (min-width:768px) and (max-width:833px) {
+  .musuem-list-headlines h1{
+    text-align: center;
 }
 }
